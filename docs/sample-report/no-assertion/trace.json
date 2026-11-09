@@ -1,0 +1,46 @@
+{
+  "verdict": "ERROR",
+  "reason": "The run finished without executing a successful assertion.",
+  "weakEvidence": false,
+  "assertions": {
+    "passed": 0,
+    "failed": 0
+  },
+  "assertionDetails": [],
+  "steps": [
+    {
+      "n": 1,
+      "action": {
+        "action": "navigate",
+        "url": "https://shop.qaautomationlabs.com/",
+        "reason": "Retry opening the homepage after the browser-check interstitial."
+      },
+      "status": "ok",
+      "urlBefore": "https://shop.qaautomationlabs.com/",
+      "urlAfter": "https://shop.qaautomationlabs.com/",
+      "screenshot": "screenshots/step-01.png",
+      "ms": 1390,
+      "observation": {
+        "url": "https://shop.qaautomationlabs.com/",
+        "title": "Checking your browser before accessing. Just a moment...",
+        "elements": [],
+        "alerts": [],
+        "headings": [
+          "Checking your browser before accessing shop.qaautomationlabs.com"
+        ],
+        "text": "Checking your browser before accessing shop.qaautomationlabs.com Please wait for up to 5 seconds..."
+      }
+    }
+  ],
+  "goal": "Open the website and inspect its homepage without performing any verification or assertion.",
+  "startUrl": "https://shop.qaautomationlabs.com/",
+  "startedAt": "2026-11-09T19:29:42.234Z",
+  "durationMs": 11233,
+  "config": {
+    "model": "openrouter/auto",
+    "baseURL": "https://openrouter.ai/api/v1",
+    "headed": true,
+    "maxSteps": 25,
+    "allowedOrigins": []
+  }
+}

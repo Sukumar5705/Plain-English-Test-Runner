@@ -1,0 +1,632 @@
+{
+  "verdict": "FAIL",
+  "reason": "At least one Playwright assertion failed.",
+  "weakEvidence": false,
+  "assertions": {
+    "passed": 0,
+    "failed": 1
+  },
+  "assertionDetails": [
+    {
+      "action": "assertVisible",
+      "expected": "Text \"Order Archive 9147\" is visible",
+      "reason": "Goal requires confirming the Order Archive 9147 heading is displayed; no such heading exists on the current logged-in shop page, so assert to let the runner evaluate.",
+      "status": "failed"
+    }
+  ],
+  "steps": [
+    {
+      "n": 1,
+      "action": {
+        "action": "navigate",
+        "url": "https://shop.qaautomationlabs.com/",
+        "reason": "Retry the page after its temporary browser check so the requested order heading can load."
+      },
+      "status": "ok",
+      "urlBefore": "https://shop.qaautomationlabs.com/",
+      "urlAfter": "https://shop.qaautomationlabs.com/",
+      "screenshot": "screenshots/step-01.png",
+      "ms": 1371,
+      "observation": {
+        "url": "https://shop.qaautomationlabs.com/",
+        "title": "Checking your browser before accessing. Just a moment...",
+        "elements": [],
+        "alerts": [],
+        "headings": [
+          "Checking your browser before accessing shop.qaautomationlabs.com"
+        ],
+        "text": "Checking your browser before accessing shop.qaautomationlabs.com Please wait for up to 5 seconds..."
+      }
+    },
+    {
+      "n": 2,
+      "action": {
+        "action": "click",
+        "ref": 19,
+        "reason": "Populate the site's [REDACTED] credentials so I can access the order archive."
+      },
+      "target": {
+        "role": "button",
+        "name": "Autofill [REDACTED] credentials",
+        "type": "button"
+      },
+      "status": "ok",
+      "urlBefore": "https://shop.qaautomationlabs.com/",
+      "urlAfter": "https://shop.qaautomationlabs.com/",
+      "screenshot": "screenshots/step-02.png",
+      "ms": 546,
+      "observation": {
+        "url": "https://shop.qaautomationlabs.com/",
+        "title": "Sign In — E-commerce Demo for Test Automation Practice | QA Automation Labs",
+        "elements": [
+          {
+            "ref": 1,
+            "role": "link",
+            "name": "QA Automation Labs"
+          },
+          {
+            "ref": 2,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 3,
+            "role": "link",
+            "name": "About"
+          },
+          {
+            "ref": 4,
+            "role": "link",
+            "name": "Courses"
+          },
+          {
+            "ref": 5,
+            "role": "link",
+            "name": "Events"
+          },
+          {
+            "ref": 6,
+            "role": "link",
+            "name": "Shop"
+          },
+          {
+            "ref": 7,
+            "role": "link",
+            "name": "API"
+          },
+          {
+            "ref": 8,
+            "role": "link",
+            "name": "Testing"
+          },
+          {
+            "ref": 9,
+            "role": "link",
+            "name": "Blog"
+          },
+          {
+            "ref": 10,
+            "role": "link",
+            "name": "Interview Preparation"
+          },
+          {
+            "ref": 11,
+            "role": "link",
+            "name": "Candidate Evaluation"
+          },
+          {
+            "ref": 12,
+            "role": "link",
+            "name": "Contacts"
+          },
+          {
+            "ref": 13,
+            "role": "textbox",
+            "name": "Search",
+            "type": "search",
+            "placeholder": "Search here..."
+          },
+          {
+            "ref": 14,
+            "role": "textbox",
+            "name": "Email",
+            "type": "email",
+            "placeholder": "Email"
+          },
+          {
+            "ref": 15,
+            "role": "textbox",
+            "name": "Password",
+            "type": "password",
+            "placeholder": "Password"
+          },
+          {
+            "ref": 16,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 17,
+            "role": "checkbox",
+            "name": "Remember me",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 18,
+            "role": "button",
+            "name": "Login",
+            "type": "submit"
+          },
+          {
+            "ref": 19,
+            "role": "button",
+            "name": "Autofill [REDACTED] credentials",
+            "type": "button"
+          },
+          {
+            "ref": 20,
+            "role": "link",
+            "name": "Register Here"
+          },
+          {
+            "ref": 21,
+            "role": "link",
+            "name": "Buy 'Web Automation Testing Using Playwright with JavaScript' on Amazon"
+          },
+          {
+            "ref": 22,
+            "role": "link",
+            "name": "Buy 'Web Automation with Playwright and Python using AI and MCP' on Amazon"
+          },
+          {
+            "ref": 23,
+            "role": "button",
+            "name": "Inspect locators",
+            "type": "submit"
+          },
+          {
+            "ref": 24,
+            "role": "button",
+            "name": "Toggle dark mode",
+            "type": "submit"
+          },
+          {
+            "ref": 25,
+            "role": "button",
+            "name": "Toggle challenge mode",
+            "type": "submit"
+          },
+          {
+            "ref": 26,
+            "role": "link",
+            "name": "Buy on Amazon"
+          },
+          {
+            "ref": 27,
+            "role": "link",
+            "name": "BPB"
+          },
+          {
+            "ref": 28,
+            "role": "button",
+            "name": "PLAYWRIGHT15",
+            "type": "button"
+          },
+          {
+            "ref": 29,
+            "role": "link",
+            "name": "Buy on Amazon"
+          },
+          {
+            "ref": 30,
+            "role": "link",
+            "name": "BPB"
+          },
+          {
+            "ref": 31,
+            "role": "button",
+            "name": "PLAYWRIGHTPY15",
+            "type": "button"
+          },
+          {
+            "ref": 32,
+            "role": "link",
+            "name": "QA Automation Labs"
+          }
+        ],
+        "alerts": [],
+        "headings": [
+          "Welcome back 👋",
+          "Sign in",
+          "Grab my books on Playwright 📚"
+        ],
+        "text": "Home About Courses Events Shop API Testing Blog Interview Preparation Candidate Evaluation Contacts Welcome back 👋 Sign in to practice end-to-end test automation on a real e-commerce flow — browse, cart, checkout & orders included. 85 products across 4 categories to automate Full cart & checkout journey with stable data-testid locators Built-in locator inspector for Playwright, Selenium & Cypress Sign in Use the [REDACTED] account or your registered credentials. Remember me Login or Autofill [REDACTED] credentials Email: [REDACTED] Password: [REDACTED] New user? Register Here Grab my books on Playwright 📚 Two books, one learning path — available on Amazon & BPB. Tap a cover to buy. Web Automation Testing Using Playwright with JavaScript End-to-end, API, accessibility & visual testing — a practical, project-driven guide. Buy on Amazon BPB 15% OFF BPB code: PLAYWRIGHT15 — click to copy Web Automation with Playwright and Python using AI and MCP Playwright + Python with AI for end-to-end, API, visual & accessibility testing — including MCP. Buy on Amazon BPB 15% OFF BPB code: PLAYWRIGHTPY15 — click to copy © 2026 QA Automation Labs. All Rights Reserved."
+      }
+    },
+    {
+      "n": 3,
+      "action": {
+        "action": "click",
+        "ref": 18,
+        "reason": "Sign in with the [REDACTED] credentials to access the order archive."
+      },
+      "target": {
+        "role": "button",
+        "name": "Login",
+        "type": "submit"
+      },
+      "status": "ok",
+      "urlBefore": "https://shop.qaautomationlabs.com/",
+      "urlAfter": "https://shop.qaautomationlabs.com/shop.php",
+      "screenshot": "screenshots/step-03.png",
+      "ms": 2404,
+      "observation": {
+        "url": "https://shop.qaautomationlabs.com/",
+        "title": "Sign In — E-commerce Demo for Test Automation Practice | QA Automation Labs",
+        "elements": [
+          {
+            "ref": 1,
+            "role": "link",
+            "name": "QA Automation Labs"
+          },
+          {
+            "ref": 2,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 3,
+            "role": "link",
+            "name": "About"
+          },
+          {
+            "ref": 4,
+            "role": "link",
+            "name": "Courses"
+          },
+          {
+            "ref": 5,
+            "role": "link",
+            "name": "Events"
+          },
+          {
+            "ref": 6,
+            "role": "link",
+            "name": "Shop"
+          },
+          {
+            "ref": 7,
+            "role": "link",
+            "name": "API"
+          },
+          {
+            "ref": 8,
+            "role": "link",
+            "name": "Testing"
+          },
+          {
+            "ref": 9,
+            "role": "link",
+            "name": "Blog"
+          },
+          {
+            "ref": 10,
+            "role": "link",
+            "name": "Interview Preparation"
+          },
+          {
+            "ref": 11,
+            "role": "link",
+            "name": "Candidate Evaluation"
+          },
+          {
+            "ref": 12,
+            "role": "link",
+            "name": "Contacts"
+          },
+          {
+            "ref": 13,
+            "role": "textbox",
+            "name": "Search",
+            "type": "search",
+            "placeholder": "Search here..."
+          },
+          {
+            "ref": 14,
+            "role": "textbox",
+            "name": "Email",
+            "type": "email",
+            "placeholder": "Email"
+          },
+          {
+            "ref": 15,
+            "role": "textbox",
+            "name": "Password",
+            "type": "password",
+            "placeholder": "Password"
+          },
+          {
+            "ref": 16,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 17,
+            "role": "checkbox",
+            "name": "Remember me",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 18,
+            "role": "button",
+            "name": "Login",
+            "type": "submit"
+          },
+          {
+            "ref": 19,
+            "role": "button",
+            "name": "Autofill [REDACTED] credentials",
+            "type": "button"
+          },
+          {
+            "ref": 20,
+            "role": "link",
+            "name": "Register Here"
+          },
+          {
+            "ref": 21,
+            "role": "link",
+            "name": "Buy 'Web Automation Testing Using Playwright with JavaScript' on Amazon"
+          },
+          {
+            "ref": 22,
+            "role": "link",
+            "name": "Buy 'Web Automation with Playwright and Python using AI and MCP' on Amazon"
+          },
+          {
+            "ref": 23,
+            "role": "button",
+            "name": "Inspect locators",
+            "type": "submit"
+          },
+          {
+            "ref": 24,
+            "role": "button",
+            "name": "Toggle dark mode",
+            "type": "submit"
+          },
+          {
+            "ref": 25,
+            "role": "button",
+            "name": "Toggle challenge mode",
+            "type": "submit"
+          },
+          {
+            "ref": 26,
+            "role": "link",
+            "name": "Buy on Amazon"
+          },
+          {
+            "ref": 27,
+            "role": "link",
+            "name": "BPB"
+          },
+          {
+            "ref": 28,
+            "role": "button",
+            "name": "PLAYWRIGHT15",
+            "type": "button"
+          },
+          {
+            "ref": 29,
+            "role": "link",
+            "name": "Buy on Amazon"
+          },
+          {
+            "ref": 30,
+            "role": "link",
+            "name": "BPB"
+          },
+          {
+            "ref": 31,
+            "role": "button",
+            "name": "PLAYWRIGHTPY15",
+            "type": "button"
+          },
+          {
+            "ref": 32,
+            "role": "link",
+            "name": "QA Automation Labs"
+          }
+        ],
+        "alerts": [],
+        "headings": [
+          "Welcome back 👋",
+          "Sign in",
+          "Grab my books on Playwright 📚"
+        ],
+        "text": "Home About Courses Events Shop API Testing Blog Interview Preparation Candidate Evaluation Contacts Welcome back 👋 Sign in to practice end-to-end test automation on a real e-commerce flow — browse, cart, checkout & orders included. 85 products across 4 categories to automate Full cart & checkout journey with stable data-testid locators Built-in locator inspector for Playwright, Selenium & Cypress Sign in Use the [REDACTED] account or your registered credentials. Remember me Login or Autofill [REDACTED] credentials Email: [REDACTED] Password: [REDACTED] New user? Register Here Grab my books on Playwright 📚 Two books, one learning path — available on Amazon & BPB. Tap a cover to buy. Web Automation Testing Using Playwright with JavaScript End-to-end, API, accessibility & visual testing — a practical, project-driven guide. Buy on Amazon BPB 15% OFF BPB code: PLAYWRIGHT15 — click to copy Web Automation with Playwright and Python using AI and MCP Playwright + Python with AI for end-to-end, API, visual & accessibility testing — including MCP. Buy on Amazon BPB 15% OFF BPB code: PLAYWRIGHTPY15 — click to copy © 2026 QA Automation Labs. All Rights Reserved."
+      }
+    },
+    {
+      "n": 4,
+      "action": {
+        "action": "assertVisible",
+        "text": "Order Archive 9147",
+        "reason": "Goal requires confirming the Order Archive 9147 heading is displayed; no such heading exists on the current logged-in shop page, so assert to let the runner evaluate."
+      },
+      "status": "failed",
+      "error": "\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('Order Archive 9147').visible().first()\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('Order Archive 9147').visible().first() with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByText('Order Archive 9147').visible().first()\u001b[22m\n",
+      "urlBefore": "https://shop.qaautomationlabs.com/shop.php",
+      "urlAfter": "https://shop.qaautomationlabs.com/shop.php",
+      "screenshot": "screenshots/step-04.png",
+      "ms": 7559,
+      "observation": {
+        "url": "https://shop.qaautomationlabs.com/shop.php",
+        "title": "Shop — E-commerce Demo App for UI Automation Practice | QA Automation Labs",
+        "elements": [
+          {
+            "ref": 1,
+            "role": "link",
+            "name": "QA Automation Labs"
+          },
+          {
+            "ref": 2,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 3,
+            "role": "link",
+            "name": "About"
+          },
+          {
+            "ref": 4,
+            "role": "link",
+            "name": "Courses"
+          },
+          {
+            "ref": 5,
+            "role": "link",
+            "name": "Events"
+          },
+          {
+            "ref": 6,
+            "role": "link",
+            "name": "Shop"
+          },
+          {
+            "ref": 7,
+            "role": "link",
+            "name": "API"
+          },
+          {
+            "ref": 8,
+            "role": "link",
+            "name": "Testing"
+          },
+          {
+            "ref": 9,
+            "role": "link",
+            "name": "Blog"
+          },
+          {
+            "ref": 10,
+            "role": "link",
+            "name": "Interview Preparation"
+          },
+          {
+            "ref": 11,
+            "role": "link",
+            "name": "Candidate Evaluation"
+          },
+          {
+            "ref": 12,
+            "role": "link",
+            "name": "Contacts"
+          },
+          {
+            "ref": 13,
+            "role": "link",
+            "name": "Cart"
+          },
+          {
+            "ref": 14,
+            "role": "button",
+            "name": "Logout",
+            "type": "submit"
+          },
+          {
+            "ref": 15,
+            "role": "textbox",
+            "name": "Search",
+            "type": "search",
+            "placeholder": "Search here..."
+          },
+          {
+            "ref": 16,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 17,
+            "role": "link",
+            "name": "Shop"
+          },
+          {
+            "ref": 18,
+            "role": "link",
+            "name": "Shop Men Fashion"
+          },
+          {
+            "ref": 19,
+            "role": "link",
+            "name": "Shop Women Fashion"
+          },
+          {
+            "ref": 20,
+            "role": "link",
+            "name": "Shop Kids Fashion"
+          },
+          {
+            "ref": 21,
+            "role": "link",
+            "name": "Shop Electronics"
+          },
+          {
+            "ref": 22,
+            "role": "button",
+            "name": "Inspect locators",
+            "type": "submit"
+          },
+          {
+            "ref": 23,
+            "role": "button",
+            "name": "Toggle dark mode",
+            "type": "submit"
+          },
+          {
+            "ref": 24,
+            "role": "button",
+            "name": "Toggle challenge mode",
+            "type": "submit"
+          },
+          {
+            "ref": 25,
+            "role": "link",
+            "name": "QA Automation Labs"
+          }
+        ],
+        "alerts": [],
+        "headings": [
+          "Men Fashion",
+          "Women Fashion",
+          "Kids Fashion",
+          "Electronics"
+        ],
+        "text": "Home About Courses Events Shop API Testing Blog Interview Preparation Candidate Evaluation Contacts 0 Home Shop SAVE 20% Men Fashion Shop Now SAVE 45% Women Fashion Shop Now SAVE 60% Kids Fashion Shop Now SAVE 45% Electronics Shop Now © 2026 QA Automation Labs. All Rights Reserved."
+      }
+    }
+  ],
+  "failure": {
+    "expected": "Text \"Order Archive 9147\" is visible",
+    "actualUrl": "https://shop.qaautomationlabs.com/shop.php",
+    "textExcerpt": "Home\nAbout\nCourses\nEvents\nShop\nAPI\nTesting\nBlog\nInterview Preparation\nCandidate Evaluation\nContacts\n0\nHome\nShop\nSAVE 20%\nMen Fashion\nShop Now\nSAVE 45%\nWomen Fashion\nShop Now\nSAVE 60%\nKids Fashion\nShop Now\nSAVE 45%\nElectronics\nShop Now\n\n© 2026 QA Automation Labs. All Rights Reserved.",
+    "screenshot": "screenshots/step-04.png"
+  },
+  "goal": "Verify that a heading named Order Archive 9147 is displayed.",
+  "startUrl": "https://shop.qaautomationlabs.com/",
+  "startedAt": "2026-11-09T19:28:25.113Z",
+  "durationMs": 33215,
+  "config": {
+    "model": "openrouter/auto",
+    "baseURL": "https://openrouter.ai/api/v1",
+    "headed": true,
+    "maxSteps": 25,
+    "allowedOrigins": []
+  }
+}

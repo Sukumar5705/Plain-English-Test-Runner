@@ -1,0 +1,28 @@
+{
+  "name": "plain-english-test-runner",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A website-independent AI agent that turns plain-English test cases into verified Playwright browser tests.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "tsx src/cli.ts",
+    "suite": "tsx src/cli.ts --suite",
+    "unit": "tsx --test tests/schema.test.ts tests/verdict.test.ts tests/redact.test.ts tests/observer.test.ts",
+    "test": "npm run unit",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.56.1",
+    "dotenv": "^16.4.7",
+    "openai": "^5.12.2",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.30",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}

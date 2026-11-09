@@ -1,0 +1,14 @@
+[
+  {
+    "name": "SauceDemo homepage heading",
+    "url": "https://www.saucedemo.com/",
+    "test": "Verify that the page displays the text 'Swag Labs'.",
+    "expect": "PASS"
+  },
+  {
+    "name": "Deliberately missing heading",
+    "url": "https://www.saucedemo.com/",
+    "test": "Verify that the page displays the heading 'Quantum Checkout'.",
+    "expect": "FAIL"
+  }
+]

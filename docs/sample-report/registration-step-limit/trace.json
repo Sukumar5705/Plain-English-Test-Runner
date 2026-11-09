@@ -1,0 +1,6631 @@
+{
+  "verdict": "ERROR",
+  "reason": "Step limit reached (25) before the agent finished.",
+  "weakEvidence": false,
+  "assertions": {
+    "passed": 24,
+    "failed": 0
+  },
+  "assertionDetails": [
+    {
+      "action": "assertVisible",
+      "expected": "Text \"First Name*\" is visible",
+      "reason": "Verify the registration form displays its first-name field.",
+      "status": "passed"
+    },
+    {
+      "action": "assertVisible",
+      "expected": "Text \"Last Name*\" is visible",
+      "reason": "Verify the registration form displays its last-name field.",
+      "status": "passed"
+    },
+    {
+      "action": "assertVisible",
+      "expected": "Text \"E-Mail*\" is visible",
+      "reason": "Verify the registration form displays its email field.",
+      "status": "passed"
+    },
+    {
+      "action": "assertVisible",
+      "expected": "Text \"Telephone*\" is visible",
+      "reason": "Verify the registration form displays its telephone field.",
+      "status": "passed"
+    },
+    {
+      "action": "assertVisible",
+      "expected": "Text \"Gender*\" is visible",
+      "reason": "Verify the registration form displays its gender field.",
+      "status": "passed"
+    },
+    {
+      "action": "assertVisible",
+      "expected": "Text \"Date of Birth*\" is visible",
+      "reason": "Verify the registration form displays its date-of-birth field.",
+      "status": "passed"
+    },
+    {
+      "action": "assertVisible",
+      "expected": "Text \"Country*\" is visible",
+      "reason": "Verify the registration form displays its country field.",
+      "status": "passed"
+    },
+    {
+      "action": "assertVisible",
+      "expected": "Text \"Password*\" is visible",
+      "reason": "Verify the registration form displays its password field.",
+      "status": "passed"
+    },
+    {
+      "action": "assertVisible",
+      "expected": "Text \"Password Confirm\" is visible",
+      "reason": "Verify the registration form displays its confirm password field.",
+      "status": "passed"
+    },
+    {
+      "action": "assertVisible",
+      "expected": "Text \"Register\" is visible",
+      "reason": "Verify the registration form includes its Register button.",
+      "status": "passed"
+    },
+    {
+      "action": "assertVisible",
+      "expected": "Text \"First Name*\" is visible",
+      "reason": "Verify the registration form displays its first-name field.",
+      "status": "passed"
+    },
+    {
+      "action": "assertVisible",
+      "expected": "Text \"Last Name*\" is visible",
+      "reason": "Verify the registration form displays the last-name field.",
+      "status": "passed"
+    },
+    {
+      "action": "assertVisible",
+      "expected": "Text \"E-Mail*\" is visible",
+      "reason": "Verify the registration form displays its email field.",
+      "status": "passed"
+    },
+    {
+      "action": "assertVisible",
+      "expected": "Text \"Telephone*\" is visible",
+      "reason": "Verify the registration form displays the telephone field.",
+      "status": "passed"
+    },
+    {
+      "action": "assertVisible",
+      "expected": "Text \"Gender*\" is visible",
+      "reason": "Verify the registration form includes the gender field.",
+      "status": "passed"
+    },
+    {
+      "action": "assertVisible",
+      "expected": "Text \"Date of Birth\" is visible",
+      "reason": "Verify the registration form displays its date-of-birth field.",
+      "status": "passed"
+    },
+    {
+      "action": "assertVisible",
+      "expected": "Text \"Country*\" is visible",
+      "reason": "Verify the registration form displays its country field.",
+      "status": "passed"
+    },
+    {
+      "action": "assertVisible",
+      "expected": "Text \"Password*\" is visible",
+      "reason": "Verify the registration form displays the password field, continuing the field checks.",
+      "status": "passed"
+    },
+    {
+      "action": "assertVisible",
+      "expected": "Text \"Password Confirm\" is visible",
+      "reason": "Verify the registration form displays the password confirmation field.",
+      "status": "passed"
+    },
+    {
+      "action": "assertVisible",
+      "expected": "Text \"Register\" is visible",
+      "reason": "Verify the registration form includes its Register button.",
+      "status": "passed"
+    },
+    {
+      "action": "assertVisible",
+      "expected": "Text \"First Name*\" is visible",
+      "reason": "Verify the registration form displays the first name field.",
+      "status": "passed"
+    },
+    {
+      "action": "assertVisible",
+      "expected": "Text \"Last Name*\" is visible",
+      "reason": "Verify the registration form displays its last name field.",
+      "status": "passed"
+    },
+    {
+      "action": "assertVisible",
+      "expected": "Text \"Gender\" is visible",
+      "reason": "Confirm the registration form displays the gender selection field.",
+      "status": "passed"
+    },
+    {
+      "action": "assertVisible",
+      "expected": "Text \"E-Mail* Telephone* Gender* Male Female Other Date of Birth* Country*\" is visible",
+      "reason": "Verify the remaining email, telephone, date of birth, and country controls are displayed on the registration form.",
+      "status": "passed"
+    }
+  ],
+  "steps": [
+    {
+      "n": 1,
+      "action": {
+        "action": "navigate",
+        "url": "https://shop.qaautomationlabs.com/register.php",
+        "reason": "Retry the registration page after the browser check so the form can load."
+      },
+      "status": "ok",
+      "urlBefore": "https://shop.qaautomationlabs.com/register.php",
+      "urlAfter": "https://shop.qaautomationlabs.com/register.php",
+      "screenshot": "screenshots/step-01.png",
+      "ms": 1345,
+      "observation": {
+        "url": "https://shop.qaautomationlabs.com/register.php",
+        "title": "Checking your browser before accessing. Just a moment...",
+        "elements": [],
+        "alerts": [],
+        "headings": [
+          "Checking your browser before accessing shop.qaautomationlabs.com"
+        ],
+        "text": "Checking your browser before accessing shop.qaautomationlabs.com Please wait for up to 5 seconds..."
+      }
+    },
+    {
+      "n": 2,
+      "action": {
+        "action": "assertVisible",
+        "text": "First Name*",
+        "reason": "Verify the registration form displays its first-name field."
+      },
+      "status": "ok",
+      "urlBefore": "https://shop.qaautomationlabs.com/register.php",
+      "urlAfter": "https://shop.qaautomationlabs.com/register.php",
+      "screenshot": "screenshots/step-02.png",
+      "ms": 513,
+      "observation": {
+        "url": "https://shop.qaautomationlabs.com/register.php",
+        "title": "Register — E-commerce Demo for Form Automation Practice | QA Automation Labs",
+        "elements": [
+          {
+            "ref": 1,
+            "role": "link",
+            "name": "QA Automation Labs"
+          },
+          {
+            "ref": 2,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 3,
+            "role": "link",
+            "name": "About"
+          },
+          {
+            "ref": 4,
+            "role": "link",
+            "name": "Courses"
+          },
+          {
+            "ref": 5,
+            "role": "link",
+            "name": "Events"
+          },
+          {
+            "ref": 6,
+            "role": "link",
+            "name": "Shop"
+          },
+          {
+            "ref": 7,
+            "role": "link",
+            "name": "API"
+          },
+          {
+            "ref": 8,
+            "role": "link",
+            "name": "Testing"
+          },
+          {
+            "ref": 9,
+            "role": "link",
+            "name": "Blog"
+          },
+          {
+            "ref": 10,
+            "role": "link",
+            "name": "Interview Preparation"
+          },
+          {
+            "ref": 11,
+            "role": "link",
+            "name": "Candidate Evaluation"
+          },
+          {
+            "ref": 12,
+            "role": "link",
+            "name": "Contacts"
+          },
+          {
+            "ref": 13,
+            "role": "textbox",
+            "name": "Search",
+            "type": "search",
+            "placeholder": "Search here..."
+          },
+          {
+            "ref": 14,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 15,
+            "role": "link",
+            "name": "Sign in →"
+          },
+          {
+            "ref": 16,
+            "role": "link",
+            "name": "login page"
+          },
+          {
+            "ref": 17,
+            "role": "textbox",
+            "name": "First Name*",
+            "type": "text",
+            "placeholder": "First Name"
+          },
+          {
+            "ref": 18,
+            "role": "textbox",
+            "name": "Last Name*",
+            "type": "text",
+            "placeholder": "Last Name"
+          },
+          {
+            "ref": 19,
+            "role": "textbox",
+            "name": "E-Mail*",
+            "type": "email",
+            "placeholder": "E-Mail"
+          },
+          {
+            "ref": 20,
+            "role": "spinbutton",
+            "name": "Telephone*",
+            "type": "number",
+            "placeholder": "Telephone"
+          },
+          {
+            "ref": 21,
+            "role": "radio",
+            "name": "Male",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 22,
+            "role": "radio",
+            "name": "Female",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 23,
+            "role": "radio",
+            "name": "Other",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 24,
+            "role": "textbox",
+            "name": "Date of Birth",
+            "type": "date"
+          },
+          {
+            "ref": 25,
+            "role": "combobox",
+            "name": "Country",
+            "type": "select-one",
+            "options": [
+              "Select Country",
+              "India",
+              "United States",
+              "United Kingdom",
+              "Canada",
+              "Australia",
+              "Germany"
+            ]
+          },
+          {
+            "ref": 26,
+            "role": "checkbox",
+            "name": "Fashion",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 27,
+            "role": "checkbox",
+            "name": "Electronics",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 28,
+            "role": "checkbox",
+            "name": "Sports",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 29,
+            "role": "checkbox",
+            "name": "Books",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 30,
+            "role": "textbox",
+            "name": "Profile Photo",
+            "type": "file"
+          },
+          {
+            "ref": 31,
+            "role": "button",
+            "name": "Inspect locators",
+            "type": "submit"
+          },
+          {
+            "ref": 32,
+            "role": "button",
+            "name": "Toggle dark mode",
+            "type": "submit"
+          },
+          {
+            "ref": 33,
+            "role": "button",
+            "name": "Toggle challenge mode",
+            "type": "submit"
+          },
+          {
+            "ref": 34,
+            "role": "textbox",
+            "name": "Password*",
+            "type": "password",
+            "placeholder": "Password"
+          },
+          {
+            "ref": 35,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 36,
+            "role": "textbox",
+            "name": "Password Confirm*",
+            "type": "password",
+            "placeholder": "Password Confirm"
+          },
+          {
+            "ref": 37,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 38,
+            "role": "button",
+            "name": "Register",
+            "type": "submit"
+          },
+          {
+            "ref": 39,
+            "role": "link",
+            "name": "QA Automation Labs"
+          }
+        ],
+        "alerts": [],
+        "headings": [
+          "Create your account"
+        ],
+        "text": "Home About Courses Events Shop API Testing Blog Interview Preparation Candidate Evaluation Contacts Home Register Create your account Practice real form validation — required fields, email & phone rules, live password strength Automate every input type: text, select, radio, checkbox, date & file upload Log in afterwards and run cart → checkout → order end-to-end Already registered? Sign in → If you already have an account with us, please login at the login page. YOUR PERSONAL DETAILS First Name* 0 characters Last Name* E-Mail* Telephone* Gender* Male Female Other Date of Birth* Country* Select Country India United States United Kingdom Canada Australia Germany Interests Fashion Electronics Sports Books Profile Photo Choose file YOUR PASSWORD Password* Password Confirm* Register © 2026 QA Automation Labs. All Rights Reserved."
+      }
+    },
+    {
+      "n": 3,
+      "action": {
+        "action": "assertVisible",
+        "text": "Last Name*",
+        "reason": "Verify the registration form displays its last-name field."
+      },
+      "status": "ok",
+      "urlBefore": "https://shop.qaautomationlabs.com/register.php",
+      "urlAfter": "https://shop.qaautomationlabs.com/register.php",
+      "screenshot": "screenshots/step-03.png",
+      "ms": 417,
+      "observation": {
+        "url": "https://shop.qaautomationlabs.com/register.php",
+        "title": "Register — E-commerce Demo for Form Automation Practice | QA Automation Labs",
+        "elements": [
+          {
+            "ref": 1,
+            "role": "link",
+            "name": "QA Automation Labs"
+          },
+          {
+            "ref": 2,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 3,
+            "role": "link",
+            "name": "About"
+          },
+          {
+            "ref": 4,
+            "role": "link",
+            "name": "Courses"
+          },
+          {
+            "ref": 5,
+            "role": "link",
+            "name": "Events"
+          },
+          {
+            "ref": 6,
+            "role": "link",
+            "name": "Shop"
+          },
+          {
+            "ref": 7,
+            "role": "link",
+            "name": "API"
+          },
+          {
+            "ref": 8,
+            "role": "link",
+            "name": "Testing"
+          },
+          {
+            "ref": 9,
+            "role": "link",
+            "name": "Blog"
+          },
+          {
+            "ref": 10,
+            "role": "link",
+            "name": "Interview Preparation"
+          },
+          {
+            "ref": 11,
+            "role": "link",
+            "name": "Candidate Evaluation"
+          },
+          {
+            "ref": 12,
+            "role": "link",
+            "name": "Contacts"
+          },
+          {
+            "ref": 13,
+            "role": "textbox",
+            "name": "Search",
+            "type": "search",
+            "placeholder": "Search here..."
+          },
+          {
+            "ref": 14,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 15,
+            "role": "link",
+            "name": "Sign in →"
+          },
+          {
+            "ref": 16,
+            "role": "link",
+            "name": "login page"
+          },
+          {
+            "ref": 17,
+            "role": "textbox",
+            "name": "First Name*",
+            "type": "text",
+            "placeholder": "First Name"
+          },
+          {
+            "ref": 18,
+            "role": "textbox",
+            "name": "Last Name*",
+            "type": "text",
+            "placeholder": "Last Name"
+          },
+          {
+            "ref": 19,
+            "role": "textbox",
+            "name": "E-Mail*",
+            "type": "email",
+            "placeholder": "E-Mail"
+          },
+          {
+            "ref": 20,
+            "role": "spinbutton",
+            "name": "Telephone*",
+            "type": "number",
+            "placeholder": "Telephone"
+          },
+          {
+            "ref": 21,
+            "role": "radio",
+            "name": "Male",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 22,
+            "role": "radio",
+            "name": "Female",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 23,
+            "role": "radio",
+            "name": "Other",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 24,
+            "role": "textbox",
+            "name": "Date of Birth",
+            "type": "date"
+          },
+          {
+            "ref": 25,
+            "role": "combobox",
+            "name": "Country",
+            "type": "select-one",
+            "options": [
+              "Select Country",
+              "India",
+              "United States",
+              "United Kingdom",
+              "Canada",
+              "Australia",
+              "Germany"
+            ]
+          },
+          {
+            "ref": 26,
+            "role": "checkbox",
+            "name": "Fashion",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 27,
+            "role": "checkbox",
+            "name": "Electronics",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 28,
+            "role": "checkbox",
+            "name": "Sports",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 29,
+            "role": "checkbox",
+            "name": "Books",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 30,
+            "role": "textbox",
+            "name": "Profile Photo",
+            "type": "file"
+          },
+          {
+            "ref": 31,
+            "role": "button",
+            "name": "Inspect locators",
+            "type": "submit"
+          },
+          {
+            "ref": 32,
+            "role": "button",
+            "name": "Toggle dark mode",
+            "type": "submit"
+          },
+          {
+            "ref": 33,
+            "role": "button",
+            "name": "Toggle challenge mode",
+            "type": "submit"
+          },
+          {
+            "ref": 34,
+            "role": "textbox",
+            "name": "Password*",
+            "type": "password",
+            "placeholder": "Password"
+          },
+          {
+            "ref": 35,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 36,
+            "role": "textbox",
+            "name": "Password Confirm*",
+            "type": "password",
+            "placeholder": "Password Confirm"
+          },
+          {
+            "ref": 37,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 38,
+            "role": "button",
+            "name": "Register",
+            "type": "submit"
+          },
+          {
+            "ref": 39,
+            "role": "link",
+            "name": "QA Automation Labs"
+          }
+        ],
+        "alerts": [],
+        "headings": [
+          "Create your account"
+        ],
+        "text": "Home About Courses Events Shop API Testing Blog Interview Preparation Candidate Evaluation Contacts Home Register Create your account Practice real form validation — required fields, email & phone rules, live password strength Automate every input type: text, select, radio, checkbox, date & file upload Log in afterwards and run cart → checkout → order end-to-end Already registered? Sign in → If you already have an account with us, please login at the login page. YOUR PERSONAL DETAILS First Name* 0 characters Last Name* E-Mail* Telephone* Gender* Male Female Other Date of Birth* Country* Select Country India United States United Kingdom Canada Australia Germany Interests Fashion Electronics Sports Books Profile Photo Choose file YOUR PASSWORD Password* Password Confirm* Register © 2026 QA Automation Labs. All Rights Reserved."
+      }
+    },
+    {
+      "n": 4,
+      "action": {
+        "action": "assertVisible",
+        "text": "E-Mail*",
+        "reason": "Verify the registration form displays its email field."
+      },
+      "status": "ok",
+      "urlBefore": "https://shop.qaautomationlabs.com/register.php",
+      "urlAfter": "https://shop.qaautomationlabs.com/register.php",
+      "screenshot": "screenshots/step-04.png",
+      "ms": 413,
+      "observation": {
+        "url": "https://shop.qaautomationlabs.com/register.php",
+        "title": "Register — E-commerce Demo for Form Automation Practice | QA Automation Labs",
+        "elements": [
+          {
+            "ref": 1,
+            "role": "link",
+            "name": "QA Automation Labs"
+          },
+          {
+            "ref": 2,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 3,
+            "role": "link",
+            "name": "About"
+          },
+          {
+            "ref": 4,
+            "role": "link",
+            "name": "Courses"
+          },
+          {
+            "ref": 5,
+            "role": "link",
+            "name": "Events"
+          },
+          {
+            "ref": 6,
+            "role": "link",
+            "name": "Shop"
+          },
+          {
+            "ref": 7,
+            "role": "link",
+            "name": "API"
+          },
+          {
+            "ref": 8,
+            "role": "link",
+            "name": "Testing"
+          },
+          {
+            "ref": 9,
+            "role": "link",
+            "name": "Blog"
+          },
+          {
+            "ref": 10,
+            "role": "link",
+            "name": "Interview Preparation"
+          },
+          {
+            "ref": 11,
+            "role": "link",
+            "name": "Candidate Evaluation"
+          },
+          {
+            "ref": 12,
+            "role": "link",
+            "name": "Contacts"
+          },
+          {
+            "ref": 13,
+            "role": "textbox",
+            "name": "Search",
+            "type": "search",
+            "placeholder": "Search here..."
+          },
+          {
+            "ref": 14,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 15,
+            "role": "link",
+            "name": "Sign in →"
+          },
+          {
+            "ref": 16,
+            "role": "link",
+            "name": "login page"
+          },
+          {
+            "ref": 17,
+            "role": "textbox",
+            "name": "First Name*",
+            "type": "text",
+            "placeholder": "First Name"
+          },
+          {
+            "ref": 18,
+            "role": "textbox",
+            "name": "Last Name*",
+            "type": "text",
+            "placeholder": "Last Name"
+          },
+          {
+            "ref": 19,
+            "role": "textbox",
+            "name": "E-Mail*",
+            "type": "email",
+            "placeholder": "E-Mail"
+          },
+          {
+            "ref": 20,
+            "role": "spinbutton",
+            "name": "Telephone*",
+            "type": "number",
+            "placeholder": "Telephone"
+          },
+          {
+            "ref": 21,
+            "role": "radio",
+            "name": "Male",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 22,
+            "role": "radio",
+            "name": "Female",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 23,
+            "role": "radio",
+            "name": "Other",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 24,
+            "role": "textbox",
+            "name": "Date of Birth",
+            "type": "date"
+          },
+          {
+            "ref": 25,
+            "role": "combobox",
+            "name": "Country",
+            "type": "select-one",
+            "options": [
+              "Select Country",
+              "India",
+              "United States",
+              "United Kingdom",
+              "Canada",
+              "Australia",
+              "Germany"
+            ]
+          },
+          {
+            "ref": 26,
+            "role": "checkbox",
+            "name": "Fashion",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 27,
+            "role": "checkbox",
+            "name": "Electronics",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 28,
+            "role": "checkbox",
+            "name": "Sports",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 29,
+            "role": "checkbox",
+            "name": "Books",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 30,
+            "role": "textbox",
+            "name": "Profile Photo",
+            "type": "file"
+          },
+          {
+            "ref": 31,
+            "role": "button",
+            "name": "Inspect locators",
+            "type": "submit"
+          },
+          {
+            "ref": 32,
+            "role": "button",
+            "name": "Toggle dark mode",
+            "type": "submit"
+          },
+          {
+            "ref": 33,
+            "role": "button",
+            "name": "Toggle challenge mode",
+            "type": "submit"
+          },
+          {
+            "ref": 34,
+            "role": "textbox",
+            "name": "Password*",
+            "type": "password",
+            "placeholder": "Password"
+          },
+          {
+            "ref": 35,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 36,
+            "role": "textbox",
+            "name": "Password Confirm*",
+            "type": "password",
+            "placeholder": "Password Confirm"
+          },
+          {
+            "ref": 37,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 38,
+            "role": "button",
+            "name": "Register",
+            "type": "submit"
+          },
+          {
+            "ref": 39,
+            "role": "link",
+            "name": "QA Automation Labs"
+          }
+        ],
+        "alerts": [],
+        "headings": [
+          "Create your account"
+        ],
+        "text": "Home About Courses Events Shop API Testing Blog Interview Preparation Candidate Evaluation Contacts Home Register Create your account Practice real form validation — required fields, email & phone rules, live password strength Automate every input type: text, select, radio, checkbox, date & file upload Log in afterwards and run cart → checkout → order end-to-end Already registered? Sign in → If you already have an account with us, please login at the login page. YOUR PERSONAL DETAILS First Name* 0 characters Last Name* E-Mail* Telephone* Gender* Male Female Other Date of Birth* Country* Select Country India United States United Kingdom Canada Australia Germany Interests Fashion Electronics Sports Books Profile Photo Choose file YOUR PASSWORD Password* Password Confirm* Register © 2026 QA Automation Labs. All Rights Reserved."
+      }
+    },
+    {
+      "n": 5,
+      "action": {
+        "action": "assertVisible",
+        "text": "Telephone*",
+        "reason": "Verify the registration form displays its telephone field."
+      },
+      "status": "ok",
+      "urlBefore": "https://shop.qaautomationlabs.com/register.php",
+      "urlAfter": "https://shop.qaautomationlabs.com/register.php",
+      "screenshot": "screenshots/step-05.png",
+      "ms": 656,
+      "observation": {
+        "url": "https://shop.qaautomationlabs.com/register.php",
+        "title": "Register — E-commerce Demo for Form Automation Practice | QA Automation Labs",
+        "elements": [
+          {
+            "ref": 1,
+            "role": "link",
+            "name": "QA Automation Labs"
+          },
+          {
+            "ref": 2,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 3,
+            "role": "link",
+            "name": "About"
+          },
+          {
+            "ref": 4,
+            "role": "link",
+            "name": "Courses"
+          },
+          {
+            "ref": 5,
+            "role": "link",
+            "name": "Events"
+          },
+          {
+            "ref": 6,
+            "role": "link",
+            "name": "Shop"
+          },
+          {
+            "ref": 7,
+            "role": "link",
+            "name": "API"
+          },
+          {
+            "ref": 8,
+            "role": "link",
+            "name": "Testing"
+          },
+          {
+            "ref": 9,
+            "role": "link",
+            "name": "Blog"
+          },
+          {
+            "ref": 10,
+            "role": "link",
+            "name": "Interview Preparation"
+          },
+          {
+            "ref": 11,
+            "role": "link",
+            "name": "Candidate Evaluation"
+          },
+          {
+            "ref": 12,
+            "role": "link",
+            "name": "Contacts"
+          },
+          {
+            "ref": 13,
+            "role": "textbox",
+            "name": "Search",
+            "type": "search",
+            "placeholder": "Search here..."
+          },
+          {
+            "ref": 14,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 15,
+            "role": "link",
+            "name": "Sign in →"
+          },
+          {
+            "ref": 16,
+            "role": "link",
+            "name": "login page"
+          },
+          {
+            "ref": 17,
+            "role": "textbox",
+            "name": "First Name*",
+            "type": "text",
+            "placeholder": "First Name"
+          },
+          {
+            "ref": 18,
+            "role": "textbox",
+            "name": "Last Name*",
+            "type": "text",
+            "placeholder": "Last Name"
+          },
+          {
+            "ref": 19,
+            "role": "textbox",
+            "name": "E-Mail*",
+            "type": "email",
+            "placeholder": "E-Mail"
+          },
+          {
+            "ref": 20,
+            "role": "spinbutton",
+            "name": "Telephone*",
+            "type": "number",
+            "placeholder": "Telephone"
+          },
+          {
+            "ref": 21,
+            "role": "radio",
+            "name": "Male",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 22,
+            "role": "radio",
+            "name": "Female",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 23,
+            "role": "radio",
+            "name": "Other",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 24,
+            "role": "textbox",
+            "name": "Date of Birth",
+            "type": "date"
+          },
+          {
+            "ref": 25,
+            "role": "combobox",
+            "name": "Country",
+            "type": "select-one",
+            "options": [
+              "Select Country",
+              "India",
+              "United States",
+              "United Kingdom",
+              "Canada",
+              "Australia",
+              "Germany"
+            ]
+          },
+          {
+            "ref": 26,
+            "role": "checkbox",
+            "name": "Fashion",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 27,
+            "role": "checkbox",
+            "name": "Electronics",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 28,
+            "role": "checkbox",
+            "name": "Sports",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 29,
+            "role": "checkbox",
+            "name": "Books",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 30,
+            "role": "textbox",
+            "name": "Profile Photo",
+            "type": "file"
+          },
+          {
+            "ref": 31,
+            "role": "button",
+            "name": "Inspect locators",
+            "type": "submit"
+          },
+          {
+            "ref": 32,
+            "role": "button",
+            "name": "Toggle dark mode",
+            "type": "submit"
+          },
+          {
+            "ref": 33,
+            "role": "button",
+            "name": "Toggle challenge mode",
+            "type": "submit"
+          },
+          {
+            "ref": 34,
+            "role": "textbox",
+            "name": "Password*",
+            "type": "password",
+            "placeholder": "Password"
+          },
+          {
+            "ref": 35,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 36,
+            "role": "textbox",
+            "name": "Password Confirm*",
+            "type": "password",
+            "placeholder": "Password Confirm"
+          },
+          {
+            "ref": 37,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 38,
+            "role": "button",
+            "name": "Register",
+            "type": "submit"
+          },
+          {
+            "ref": 39,
+            "role": "link",
+            "name": "QA Automation Labs"
+          }
+        ],
+        "alerts": [],
+        "headings": [
+          "Create your account"
+        ],
+        "text": "Home About Courses Events Shop API Testing Blog Interview Preparation Candidate Evaluation Contacts Home Register Create your account Practice real form validation — required fields, email & phone rules, live password strength Automate every input type: text, select, radio, checkbox, date & file upload Log in afterwards and run cart → checkout → order end-to-end Already registered? Sign in → If you already have an account with us, please login at the login page. YOUR PERSONAL DETAILS First Name* 0 characters Last Name* E-Mail* Telephone* Gender* Male Female Other Date of Birth* Country* Select Country India United States United Kingdom Canada Australia Germany Interests Fashion Electronics Sports Books Profile Photo Choose file YOUR PASSWORD Password* Password Confirm* Register © 2026 QA Automation Labs. All Rights Reserved."
+      }
+    },
+    {
+      "n": 6,
+      "action": {
+        "action": "assertVisible",
+        "text": "Gender*",
+        "reason": "Verify the registration form displays its gender field."
+      },
+      "status": "ok",
+      "urlBefore": "https://shop.qaautomationlabs.com/register.php",
+      "urlAfter": "https://shop.qaautomationlabs.com/register.php",
+      "screenshot": "screenshots/step-06.png",
+      "ms": 262,
+      "observation": {
+        "url": "https://shop.qaautomationlabs.com/register.php",
+        "title": "Register — E-commerce Demo for Form Automation Practice | QA Automation Labs",
+        "elements": [
+          {
+            "ref": 1,
+            "role": "link",
+            "name": "QA Automation Labs"
+          },
+          {
+            "ref": 2,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 3,
+            "role": "link",
+            "name": "About"
+          },
+          {
+            "ref": 4,
+            "role": "link",
+            "name": "Courses"
+          },
+          {
+            "ref": 5,
+            "role": "link",
+            "name": "Events"
+          },
+          {
+            "ref": 6,
+            "role": "link",
+            "name": "Shop"
+          },
+          {
+            "ref": 7,
+            "role": "link",
+            "name": "API"
+          },
+          {
+            "ref": 8,
+            "role": "link",
+            "name": "Testing"
+          },
+          {
+            "ref": 9,
+            "role": "link",
+            "name": "Blog"
+          },
+          {
+            "ref": 10,
+            "role": "link",
+            "name": "Interview Preparation"
+          },
+          {
+            "ref": 11,
+            "role": "link",
+            "name": "Candidate Evaluation"
+          },
+          {
+            "ref": 12,
+            "role": "link",
+            "name": "Contacts"
+          },
+          {
+            "ref": 13,
+            "role": "textbox",
+            "name": "Search",
+            "type": "search",
+            "placeholder": "Search here..."
+          },
+          {
+            "ref": 14,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 15,
+            "role": "link",
+            "name": "Sign in →"
+          },
+          {
+            "ref": 16,
+            "role": "link",
+            "name": "login page"
+          },
+          {
+            "ref": 17,
+            "role": "textbox",
+            "name": "First Name*",
+            "type": "text",
+            "placeholder": "First Name"
+          },
+          {
+            "ref": 18,
+            "role": "textbox",
+            "name": "Last Name*",
+            "type": "text",
+            "placeholder": "Last Name"
+          },
+          {
+            "ref": 19,
+            "role": "textbox",
+            "name": "E-Mail*",
+            "type": "email",
+            "placeholder": "E-Mail"
+          },
+          {
+            "ref": 20,
+            "role": "spinbutton",
+            "name": "Telephone*",
+            "type": "number",
+            "placeholder": "Telephone"
+          },
+          {
+            "ref": 21,
+            "role": "radio",
+            "name": "Male",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 22,
+            "role": "radio",
+            "name": "Female",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 23,
+            "role": "radio",
+            "name": "Other",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 24,
+            "role": "textbox",
+            "name": "Date of Birth",
+            "type": "date"
+          },
+          {
+            "ref": 25,
+            "role": "combobox",
+            "name": "Country",
+            "type": "select-one",
+            "options": [
+              "Select Country",
+              "India",
+              "United States",
+              "United Kingdom",
+              "Canada",
+              "Australia",
+              "Germany"
+            ]
+          },
+          {
+            "ref": 26,
+            "role": "checkbox",
+            "name": "Fashion",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 27,
+            "role": "checkbox",
+            "name": "Electronics",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 28,
+            "role": "checkbox",
+            "name": "Sports",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 29,
+            "role": "checkbox",
+            "name": "Books",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 30,
+            "role": "textbox",
+            "name": "Profile Photo",
+            "type": "file"
+          },
+          {
+            "ref": 31,
+            "role": "button",
+            "name": "Inspect locators",
+            "type": "submit"
+          },
+          {
+            "ref": 32,
+            "role": "button",
+            "name": "Toggle dark mode",
+            "type": "submit"
+          },
+          {
+            "ref": 33,
+            "role": "button",
+            "name": "Toggle challenge mode",
+            "type": "submit"
+          },
+          {
+            "ref": 34,
+            "role": "textbox",
+            "name": "Password*",
+            "type": "password",
+            "placeholder": "Password"
+          },
+          {
+            "ref": 35,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 36,
+            "role": "textbox",
+            "name": "Password Confirm*",
+            "type": "password",
+            "placeholder": "Password Confirm"
+          },
+          {
+            "ref": 37,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 38,
+            "role": "button",
+            "name": "Register",
+            "type": "submit"
+          },
+          {
+            "ref": 39,
+            "role": "link",
+            "name": "QA Automation Labs"
+          }
+        ],
+        "alerts": [],
+        "headings": [
+          "Create your account"
+        ],
+        "text": "Home About Courses Events Shop API Testing Blog Interview Preparation Candidate Evaluation Contacts Home Register Create your account Practice real form validation — required fields, email & phone rules, live password strength Automate every input type: text, select, radio, checkbox, date & file upload Log in afterwards and run cart → checkout → order end-to-end Already registered? Sign in → If you already have an account with us, please login at the login page. YOUR PERSONAL DETAILS First Name* 0 characters Last Name* E-Mail* Telephone* Gender* Male Female Other Date of Birth* Country* Select Country India United States United Kingdom Canada Australia Germany Interests Fashion Electronics Sports Books Profile Photo Choose file YOUR PASSWORD Password* Password Confirm* Register © 2026 QA Automation Labs. All Rights Reserved."
+      }
+    },
+    {
+      "n": 7,
+      "action": {
+        "action": "assertVisible",
+        "text": "Date of Birth*",
+        "reason": "Verify the registration form displays its date-of-birth field."
+      },
+      "status": "ok",
+      "urlBefore": "https://shop.qaautomationlabs.com/register.php",
+      "urlAfter": "https://shop.qaautomationlabs.com/register.php",
+      "screenshot": "screenshots/step-07.png",
+      "ms": 444,
+      "observation": {
+        "url": "https://shop.qaautomationlabs.com/register.php",
+        "title": "Register — E-commerce Demo for Form Automation Practice | QA Automation Labs",
+        "elements": [
+          {
+            "ref": 1,
+            "role": "link",
+            "name": "QA Automation Labs"
+          },
+          {
+            "ref": 2,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 3,
+            "role": "link",
+            "name": "About"
+          },
+          {
+            "ref": 4,
+            "role": "link",
+            "name": "Courses"
+          },
+          {
+            "ref": 5,
+            "role": "link",
+            "name": "Events"
+          },
+          {
+            "ref": 6,
+            "role": "link",
+            "name": "Shop"
+          },
+          {
+            "ref": 7,
+            "role": "link",
+            "name": "API"
+          },
+          {
+            "ref": 8,
+            "role": "link",
+            "name": "Testing"
+          },
+          {
+            "ref": 9,
+            "role": "link",
+            "name": "Blog"
+          },
+          {
+            "ref": 10,
+            "role": "link",
+            "name": "Interview Preparation"
+          },
+          {
+            "ref": 11,
+            "role": "link",
+            "name": "Candidate Evaluation"
+          },
+          {
+            "ref": 12,
+            "role": "link",
+            "name": "Contacts"
+          },
+          {
+            "ref": 13,
+            "role": "textbox",
+            "name": "Search",
+            "type": "search",
+            "placeholder": "Search here..."
+          },
+          {
+            "ref": 14,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 15,
+            "role": "link",
+            "name": "Sign in →"
+          },
+          {
+            "ref": 16,
+            "role": "link",
+            "name": "login page"
+          },
+          {
+            "ref": 17,
+            "role": "textbox",
+            "name": "First Name*",
+            "type": "text",
+            "placeholder": "First Name"
+          },
+          {
+            "ref": 18,
+            "role": "textbox",
+            "name": "Last Name*",
+            "type": "text",
+            "placeholder": "Last Name"
+          },
+          {
+            "ref": 19,
+            "role": "textbox",
+            "name": "E-Mail*",
+            "type": "email",
+            "placeholder": "E-Mail"
+          },
+          {
+            "ref": 20,
+            "role": "spinbutton",
+            "name": "Telephone*",
+            "type": "number",
+            "placeholder": "Telephone"
+          },
+          {
+            "ref": 21,
+            "role": "radio",
+            "name": "Male",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 22,
+            "role": "radio",
+            "name": "Female",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 23,
+            "role": "radio",
+            "name": "Other",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 24,
+            "role": "textbox",
+            "name": "Date of Birth",
+            "type": "date"
+          },
+          {
+            "ref": 25,
+            "role": "combobox",
+            "name": "Country",
+            "type": "select-one",
+            "options": [
+              "Select Country",
+              "India",
+              "United States",
+              "United Kingdom",
+              "Canada",
+              "Australia",
+              "Germany"
+            ]
+          },
+          {
+            "ref": 26,
+            "role": "checkbox",
+            "name": "Fashion",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 27,
+            "role": "checkbox",
+            "name": "Electronics",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 28,
+            "role": "checkbox",
+            "name": "Sports",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 29,
+            "role": "checkbox",
+            "name": "Books",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 30,
+            "role": "textbox",
+            "name": "Profile Photo",
+            "type": "file"
+          },
+          {
+            "ref": 31,
+            "role": "button",
+            "name": "Inspect locators",
+            "type": "submit"
+          },
+          {
+            "ref": 32,
+            "role": "button",
+            "name": "Toggle dark mode",
+            "type": "submit"
+          },
+          {
+            "ref": 33,
+            "role": "button",
+            "name": "Toggle challenge mode",
+            "type": "submit"
+          },
+          {
+            "ref": 34,
+            "role": "textbox",
+            "name": "Password*",
+            "type": "password",
+            "placeholder": "Password"
+          },
+          {
+            "ref": 35,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 36,
+            "role": "textbox",
+            "name": "Password Confirm*",
+            "type": "password",
+            "placeholder": "Password Confirm"
+          },
+          {
+            "ref": 37,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 38,
+            "role": "button",
+            "name": "Register",
+            "type": "submit"
+          },
+          {
+            "ref": 39,
+            "role": "link",
+            "name": "QA Automation Labs"
+          }
+        ],
+        "alerts": [],
+        "headings": [
+          "Create your account"
+        ],
+        "text": "Home About Courses Events Shop API Testing Blog Interview Preparation Candidate Evaluation Contacts Home Register Create your account Practice real form validation — required fields, email & phone rules, live password strength Automate every input type: text, select, radio, checkbox, date & file upload Log in afterwards and run cart → checkout → order end-to-end Already registered? Sign in → If you already have an account with us, please login at the login page. YOUR PERSONAL DETAILS First Name* 0 characters Last Name* E-Mail* Telephone* Gender* Male Female Other Date of Birth* Country* Select Country India United States United Kingdom Canada Australia Germany Interests Fashion Electronics Sports Books Profile Photo Choose file YOUR PASSWORD Password* Password Confirm* Register © 2026 QA Automation Labs. All Rights Reserved."
+      }
+    },
+    {
+      "n": 8,
+      "action": {
+        "action": "assertVisible",
+        "text": "Country*",
+        "reason": "Verify the registration form displays its country field."
+      },
+      "status": "ok",
+      "urlBefore": "https://shop.qaautomationlabs.com/register.php",
+      "urlAfter": "https://shop.qaautomationlabs.com/register.php",
+      "screenshot": "screenshots/step-08.png",
+      "ms": 349,
+      "observation": {
+        "url": "https://shop.qaautomationlabs.com/register.php",
+        "title": "Register — E-commerce Demo for Form Automation Practice | QA Automation Labs",
+        "elements": [
+          {
+            "ref": 1,
+            "role": "link",
+            "name": "QA Automation Labs"
+          },
+          {
+            "ref": 2,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 3,
+            "role": "link",
+            "name": "About"
+          },
+          {
+            "ref": 4,
+            "role": "link",
+            "name": "Courses"
+          },
+          {
+            "ref": 5,
+            "role": "link",
+            "name": "Events"
+          },
+          {
+            "ref": 6,
+            "role": "link",
+            "name": "Shop"
+          },
+          {
+            "ref": 7,
+            "role": "link",
+            "name": "API"
+          },
+          {
+            "ref": 8,
+            "role": "link",
+            "name": "Testing"
+          },
+          {
+            "ref": 9,
+            "role": "link",
+            "name": "Blog"
+          },
+          {
+            "ref": 10,
+            "role": "link",
+            "name": "Interview Preparation"
+          },
+          {
+            "ref": 11,
+            "role": "link",
+            "name": "Candidate Evaluation"
+          },
+          {
+            "ref": 12,
+            "role": "link",
+            "name": "Contacts"
+          },
+          {
+            "ref": 13,
+            "role": "textbox",
+            "name": "Search",
+            "type": "search",
+            "placeholder": "Search here..."
+          },
+          {
+            "ref": 14,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 15,
+            "role": "link",
+            "name": "Sign in →"
+          },
+          {
+            "ref": 16,
+            "role": "link",
+            "name": "login page"
+          },
+          {
+            "ref": 17,
+            "role": "textbox",
+            "name": "First Name*",
+            "type": "text",
+            "placeholder": "First Name"
+          },
+          {
+            "ref": 18,
+            "role": "textbox",
+            "name": "Last Name*",
+            "type": "text",
+            "placeholder": "Last Name"
+          },
+          {
+            "ref": 19,
+            "role": "textbox",
+            "name": "E-Mail*",
+            "type": "email",
+            "placeholder": "E-Mail"
+          },
+          {
+            "ref": 20,
+            "role": "spinbutton",
+            "name": "Telephone*",
+            "type": "number",
+            "placeholder": "Telephone"
+          },
+          {
+            "ref": 21,
+            "role": "radio",
+            "name": "Male",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 22,
+            "role": "radio",
+            "name": "Female",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 23,
+            "role": "radio",
+            "name": "Other",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 24,
+            "role": "textbox",
+            "name": "Date of Birth",
+            "type": "date"
+          },
+          {
+            "ref": 25,
+            "role": "combobox",
+            "name": "Country",
+            "type": "select-one",
+            "options": [
+              "Select Country",
+              "India",
+              "United States",
+              "United Kingdom",
+              "Canada",
+              "Australia",
+              "Germany"
+            ]
+          },
+          {
+            "ref": 26,
+            "role": "checkbox",
+            "name": "Fashion",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 27,
+            "role": "checkbox",
+            "name": "Electronics",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 28,
+            "role": "checkbox",
+            "name": "Sports",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 29,
+            "role": "checkbox",
+            "name": "Books",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 30,
+            "role": "textbox",
+            "name": "Profile Photo",
+            "type": "file"
+          },
+          {
+            "ref": 31,
+            "role": "button",
+            "name": "Inspect locators",
+            "type": "submit"
+          },
+          {
+            "ref": 32,
+            "role": "button",
+            "name": "Toggle dark mode",
+            "type": "submit"
+          },
+          {
+            "ref": 33,
+            "role": "button",
+            "name": "Toggle challenge mode",
+            "type": "submit"
+          },
+          {
+            "ref": 34,
+            "role": "textbox",
+            "name": "Password*",
+            "type": "password",
+            "placeholder": "Password"
+          },
+          {
+            "ref": 35,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 36,
+            "role": "textbox",
+            "name": "Password Confirm*",
+            "type": "password",
+            "placeholder": "Password Confirm"
+          },
+          {
+            "ref": 37,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 38,
+            "role": "button",
+            "name": "Register",
+            "type": "submit"
+          },
+          {
+            "ref": 39,
+            "role": "link",
+            "name": "QA Automation Labs"
+          }
+        ],
+        "alerts": [],
+        "headings": [
+          "Create your account"
+        ],
+        "text": "Home About Courses Events Shop API Testing Blog Interview Preparation Candidate Evaluation Contacts Home Register Create your account Practice real form validation — required fields, email & phone rules, live password strength Automate every input type: text, select, radio, checkbox, date & file upload Log in afterwards and run cart → checkout → order end-to-end Already registered? Sign in → If you already have an account with us, please login at the login page. YOUR PERSONAL DETAILS First Name* 0 characters Last Name* E-Mail* Telephone* Gender* Male Female Other Date of Birth* Country* Select Country India United States United Kingdom Canada Australia Germany Interests Fashion Electronics Sports Books Profile Photo Choose file YOUR PASSWORD Password* Password Confirm* Register © 2026 QA Automation Labs. All Rights Reserved."
+      }
+    },
+    {
+      "n": 9,
+      "action": {
+        "action": "assertVisible",
+        "text": "Password*",
+        "reason": "Verify the registration form displays its password field."
+      },
+      "status": "ok",
+      "urlBefore": "https://shop.qaautomationlabs.com/register.php",
+      "urlAfter": "https://shop.qaautomationlabs.com/register.php",
+      "screenshot": "screenshots/step-09.png",
+      "ms": 237,
+      "observation": {
+        "url": "https://shop.qaautomationlabs.com/register.php",
+        "title": "Register — E-commerce Demo for Form Automation Practice | QA Automation Labs",
+        "elements": [
+          {
+            "ref": 1,
+            "role": "link",
+            "name": "QA Automation Labs"
+          },
+          {
+            "ref": 2,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 3,
+            "role": "link",
+            "name": "About"
+          },
+          {
+            "ref": 4,
+            "role": "link",
+            "name": "Courses"
+          },
+          {
+            "ref": 5,
+            "role": "link",
+            "name": "Events"
+          },
+          {
+            "ref": 6,
+            "role": "link",
+            "name": "Shop"
+          },
+          {
+            "ref": 7,
+            "role": "link",
+            "name": "API"
+          },
+          {
+            "ref": 8,
+            "role": "link",
+            "name": "Testing"
+          },
+          {
+            "ref": 9,
+            "role": "link",
+            "name": "Blog"
+          },
+          {
+            "ref": 10,
+            "role": "link",
+            "name": "Interview Preparation"
+          },
+          {
+            "ref": 11,
+            "role": "link",
+            "name": "Candidate Evaluation"
+          },
+          {
+            "ref": 12,
+            "role": "link",
+            "name": "Contacts"
+          },
+          {
+            "ref": 13,
+            "role": "textbox",
+            "name": "Search",
+            "type": "search",
+            "placeholder": "Search here..."
+          },
+          {
+            "ref": 14,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 15,
+            "role": "link",
+            "name": "Sign in →"
+          },
+          {
+            "ref": 16,
+            "role": "link",
+            "name": "login page"
+          },
+          {
+            "ref": 17,
+            "role": "textbox",
+            "name": "First Name*",
+            "type": "text",
+            "placeholder": "First Name"
+          },
+          {
+            "ref": 18,
+            "role": "textbox",
+            "name": "Last Name*",
+            "type": "text",
+            "placeholder": "Last Name"
+          },
+          {
+            "ref": 19,
+            "role": "textbox",
+            "name": "E-Mail*",
+            "type": "email",
+            "placeholder": "E-Mail"
+          },
+          {
+            "ref": 20,
+            "role": "spinbutton",
+            "name": "Telephone*",
+            "type": "number",
+            "placeholder": "Telephone"
+          },
+          {
+            "ref": 21,
+            "role": "radio",
+            "name": "Male",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 22,
+            "role": "radio",
+            "name": "Female",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 23,
+            "role": "radio",
+            "name": "Other",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 24,
+            "role": "textbox",
+            "name": "Date of Birth",
+            "type": "date"
+          },
+          {
+            "ref": 25,
+            "role": "combobox",
+            "name": "Country",
+            "type": "select-one",
+            "options": [
+              "Select Country",
+              "India",
+              "United States",
+              "United Kingdom",
+              "Canada",
+              "Australia",
+              "Germany"
+            ]
+          },
+          {
+            "ref": 26,
+            "role": "checkbox",
+            "name": "Fashion",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 27,
+            "role": "checkbox",
+            "name": "Electronics",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 28,
+            "role": "checkbox",
+            "name": "Sports",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 29,
+            "role": "checkbox",
+            "name": "Books",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 30,
+            "role": "textbox",
+            "name": "Profile Photo",
+            "type": "file"
+          },
+          {
+            "ref": 31,
+            "role": "button",
+            "name": "Inspect locators",
+            "type": "submit"
+          },
+          {
+            "ref": 32,
+            "role": "button",
+            "name": "Toggle dark mode",
+            "type": "submit"
+          },
+          {
+            "ref": 33,
+            "role": "button",
+            "name": "Toggle challenge mode",
+            "type": "submit"
+          },
+          {
+            "ref": 34,
+            "role": "textbox",
+            "name": "Password*",
+            "type": "password",
+            "placeholder": "Password"
+          },
+          {
+            "ref": 35,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 36,
+            "role": "textbox",
+            "name": "Password Confirm*",
+            "type": "password",
+            "placeholder": "Password Confirm"
+          },
+          {
+            "ref": 37,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 38,
+            "role": "button",
+            "name": "Register",
+            "type": "submit"
+          },
+          {
+            "ref": 39,
+            "role": "link",
+            "name": "QA Automation Labs"
+          }
+        ],
+        "alerts": [],
+        "headings": [
+          "Create your account"
+        ],
+        "text": "Home About Courses Events Shop API Testing Blog Interview Preparation Candidate Evaluation Contacts Home Register Create your account Practice real form validation — required fields, email & phone rules, live password strength Automate every input type: text, select, radio, checkbox, date & file upload Log in afterwards and run cart → checkout → order end-to-end Already registered? Sign in → If you already have an account with us, please login at the login page. YOUR PERSONAL DETAILS First Name* 0 characters Last Name* E-Mail* Telephone* Gender* Male Female Other Date of Birth* Country* Select Country India United States United Kingdom Canada Australia Germany Interests Fashion Electronics Sports Books Profile Photo Choose file YOUR PASSWORD Password* Password Confirm* Register © 2026 QA Automation Labs. All Rights Reserved."
+      }
+    },
+    {
+      "n": 10,
+      "action": {
+        "action": "assertVisible",
+        "text": "Password Confirm",
+        "reason": "Verify the registration form displays its confirm password field."
+      },
+      "status": "ok",
+      "urlBefore": "https://shop.qaautomationlabs.com/register.php",
+      "urlAfter": "https://shop.qaautomationlabs.com/register.php",
+      "screenshot": "screenshots/step-10.png",
+      "ms": 422,
+      "observation": {
+        "url": "https://shop.qaautomationlabs.com/register.php",
+        "title": "Register — E-commerce Demo for Form Automation Practice | QA Automation Labs",
+        "elements": [
+          {
+            "ref": 1,
+            "role": "link",
+            "name": "Sign in →"
+          },
+          {
+            "ref": 2,
+            "role": "textbox",
+            "name": "E-Mail*",
+            "type": "email",
+            "placeholder": "E-Mail"
+          },
+          {
+            "ref": 3,
+            "role": "spinbutton",
+            "name": "Telephone*",
+            "type": "number",
+            "placeholder": "Telephone"
+          },
+          {
+            "ref": 4,
+            "role": "radio",
+            "name": "Male",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 5,
+            "role": "radio",
+            "name": "Female",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 6,
+            "role": "radio",
+            "name": "Other",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 7,
+            "role": "textbox",
+            "name": "Date of Birth",
+            "type": "date"
+          },
+          {
+            "ref": 8,
+            "role": "combobox",
+            "name": "Country",
+            "type": "select-one",
+            "options": [
+              "Select Country",
+              "India",
+              "United States",
+              "United Kingdom",
+              "Canada",
+              "Australia",
+              "Germany"
+            ]
+          },
+          {
+            "ref": 9,
+            "role": "checkbox",
+            "name": "Fashion",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 10,
+            "role": "checkbox",
+            "name": "Electronics",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 11,
+            "role": "checkbox",
+            "name": "Sports",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 12,
+            "role": "checkbox",
+            "name": "Books",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 13,
+            "role": "textbox",
+            "name": "Profile Photo",
+            "type": "file"
+          },
+          {
+            "ref": 14,
+            "role": "textbox",
+            "name": "Password*",
+            "type": "password",
+            "placeholder": "Password"
+          },
+          {
+            "ref": 15,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 16,
+            "role": "textbox",
+            "name": "Password Confirm*",
+            "type": "password",
+            "placeholder": "Password Confirm"
+          },
+          {
+            "ref": 17,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 18,
+            "role": "button",
+            "name": "Register",
+            "type": "submit"
+          },
+          {
+            "ref": 19,
+            "role": "link",
+            "name": "QA Automation Labs"
+          },
+          {
+            "ref": 20,
+            "role": "link",
+            "name": "Back to top"
+          },
+          {
+            "ref": 21,
+            "role": "button",
+            "name": "Inspect locators",
+            "type": "submit"
+          },
+          {
+            "ref": 22,
+            "role": "button",
+            "name": "Toggle dark mode",
+            "type": "submit"
+          },
+          {
+            "ref": 23,
+            "role": "button",
+            "name": "Toggle challenge mode",
+            "type": "submit"
+          },
+          {
+            "ref": 24,
+            "role": "link",
+            "name": "QA Automation Labs"
+          },
+          {
+            "ref": 25,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 26,
+            "role": "link",
+            "name": "About"
+          },
+          {
+            "ref": 27,
+            "role": "link",
+            "name": "Courses"
+          },
+          {
+            "ref": 28,
+            "role": "link",
+            "name": "Events"
+          },
+          {
+            "ref": 29,
+            "role": "link",
+            "name": "Shop"
+          },
+          {
+            "ref": 30,
+            "role": "link",
+            "name": "API"
+          },
+          {
+            "ref": 31,
+            "role": "link",
+            "name": "Testing"
+          },
+          {
+            "ref": 32,
+            "role": "link",
+            "name": "Blog"
+          },
+          {
+            "ref": 33,
+            "role": "link",
+            "name": "Interview Preparation"
+          },
+          {
+            "ref": 34,
+            "role": "link",
+            "name": "Candidate Evaluation"
+          },
+          {
+            "ref": 35,
+            "role": "link",
+            "name": "Contacts"
+          },
+          {
+            "ref": 36,
+            "role": "textbox",
+            "name": "Search",
+            "type": "search",
+            "placeholder": "Search here..."
+          },
+          {
+            "ref": 37,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 38,
+            "role": "link",
+            "name": "login page"
+          },
+          {
+            "ref": 39,
+            "role": "textbox",
+            "name": "First Name*",
+            "type": "text",
+            "placeholder": "First Name"
+          },
+          {
+            "ref": 40,
+            "role": "textbox",
+            "name": "Last Name*",
+            "type": "text",
+            "placeholder": "Last Name"
+          }
+        ],
+        "alerts": [],
+        "headings": [
+          "Create your account"
+        ],
+        "text": "Home About Courses Events Shop API Testing Blog Interview Preparation Candidate Evaluation Contacts Home Register Create your account Practice real form validation — required fields, email & phone rules, live password strength Automate every input type: text, select, radio, checkbox, date & file upload Log in afterwards and run cart → checkout → order end-to-end Already registered? Sign in → If you already have an account with us, please login at the login page. YOUR PERSONAL DETAILS First Name* 0 characters Last Name* E-Mail* Telephone* Gender* Male Female Other Date of Birth* Country* Select Country India United States United Kingdom Canada Australia Germany Interests Fashion Electronics Sports Books Profile Photo Choose file YOUR PASSWORD Password* Password Confirm* Register © 2026 QA Automation Labs. All Rights Reserved."
+      }
+    },
+    {
+      "n": 11,
+      "action": {
+        "action": "assertVisible",
+        "text": "Register",
+        "reason": "Verify the registration form includes its Register button."
+      },
+      "status": "ok",
+      "urlBefore": "https://shop.qaautomationlabs.com/register.php",
+      "urlAfter": "https://shop.qaautomationlabs.com/register.php",
+      "screenshot": "screenshots/step-11.png",
+      "ms": 399,
+      "observation": {
+        "url": "https://shop.qaautomationlabs.com/register.php",
+        "title": "Register — E-commerce Demo for Form Automation Practice | QA Automation Labs",
+        "elements": [
+          {
+            "ref": 1,
+            "role": "link",
+            "name": "Sign in →"
+          },
+          {
+            "ref": 2,
+            "role": "textbox",
+            "name": "E-Mail*",
+            "type": "email",
+            "placeholder": "E-Mail"
+          },
+          {
+            "ref": 3,
+            "role": "spinbutton",
+            "name": "Telephone*",
+            "type": "number",
+            "placeholder": "Telephone"
+          },
+          {
+            "ref": 4,
+            "role": "radio",
+            "name": "Male",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 5,
+            "role": "radio",
+            "name": "Female",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 6,
+            "role": "radio",
+            "name": "Other",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 7,
+            "role": "textbox",
+            "name": "Date of Birth",
+            "type": "date"
+          },
+          {
+            "ref": 8,
+            "role": "combobox",
+            "name": "Country",
+            "type": "select-one",
+            "options": [
+              "Select Country",
+              "India",
+              "United States",
+              "United Kingdom",
+              "Canada",
+              "Australia",
+              "Germany"
+            ]
+          },
+          {
+            "ref": 9,
+            "role": "checkbox",
+            "name": "Fashion",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 10,
+            "role": "checkbox",
+            "name": "Electronics",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 11,
+            "role": "checkbox",
+            "name": "Sports",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 12,
+            "role": "checkbox",
+            "name": "Books",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 13,
+            "role": "textbox",
+            "name": "Profile Photo",
+            "type": "file"
+          },
+          {
+            "ref": 14,
+            "role": "textbox",
+            "name": "Password*",
+            "type": "password",
+            "placeholder": "Password"
+          },
+          {
+            "ref": 15,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 16,
+            "role": "textbox",
+            "name": "Password Confirm*",
+            "type": "password",
+            "placeholder": "Password Confirm"
+          },
+          {
+            "ref": 17,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 18,
+            "role": "button",
+            "name": "Register",
+            "type": "submit"
+          },
+          {
+            "ref": 19,
+            "role": "link",
+            "name": "QA Automation Labs"
+          },
+          {
+            "ref": 20,
+            "role": "link",
+            "name": "Back to top"
+          },
+          {
+            "ref": 21,
+            "role": "button",
+            "name": "Inspect locators",
+            "type": "submit"
+          },
+          {
+            "ref": 22,
+            "role": "button",
+            "name": "Toggle dark mode",
+            "type": "submit"
+          },
+          {
+            "ref": 23,
+            "role": "button",
+            "name": "Toggle challenge mode",
+            "type": "submit"
+          },
+          {
+            "ref": 24,
+            "role": "link",
+            "name": "QA Automation Labs"
+          },
+          {
+            "ref": 25,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 26,
+            "role": "link",
+            "name": "About"
+          },
+          {
+            "ref": 27,
+            "role": "link",
+            "name": "Courses"
+          },
+          {
+            "ref": 28,
+            "role": "link",
+            "name": "Events"
+          },
+          {
+            "ref": 29,
+            "role": "link",
+            "name": "Shop"
+          },
+          {
+            "ref": 30,
+            "role": "link",
+            "name": "API"
+          },
+          {
+            "ref": 31,
+            "role": "link",
+            "name": "Testing"
+          },
+          {
+            "ref": 32,
+            "role": "link",
+            "name": "Blog"
+          },
+          {
+            "ref": 33,
+            "role": "link",
+            "name": "Interview Preparation"
+          },
+          {
+            "ref": 34,
+            "role": "link",
+            "name": "Candidate Evaluation"
+          },
+          {
+            "ref": 35,
+            "role": "link",
+            "name": "Contacts"
+          },
+          {
+            "ref": 36,
+            "role": "textbox",
+            "name": "Search",
+            "type": "search",
+            "placeholder": "Search here..."
+          },
+          {
+            "ref": 37,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 38,
+            "role": "link",
+            "name": "login page"
+          },
+          {
+            "ref": 39,
+            "role": "textbox",
+            "name": "First Name*",
+            "type": "text",
+            "placeholder": "First Name"
+          },
+          {
+            "ref": 40,
+            "role": "textbox",
+            "name": "Last Name*",
+            "type": "text",
+            "placeholder": "Last Name"
+          }
+        ],
+        "alerts": [],
+        "headings": [
+          "Create your account"
+        ],
+        "text": "Home About Courses Events Shop API Testing Blog Interview Preparation Candidate Evaluation Contacts Home Register Create your account Practice real form validation — required fields, email & phone rules, live password strength Automate every input type: text, select, radio, checkbox, date & file upload Log in afterwards and run cart → checkout → order end-to-end Already registered? Sign in → If you already have an account with us, please login at the login page. YOUR PERSONAL DETAILS First Name* 0 characters Last Name* E-Mail* Telephone* Gender* Male Female Other Date of Birth* Country* Select Country India United States United Kingdom Canada Australia Germany Interests Fashion Electronics Sports Books Profile Photo Choose file YOUR PASSWORD Password* Password Confirm* Register © 2026 QA Automation Labs. All Rights Reserved."
+      }
+    },
+    {
+      "n": 12,
+      "action": {
+        "action": "assertVisible",
+        "text": "First Name*",
+        "reason": "Verify the registration form displays its first-name field."
+      },
+      "status": "ok",
+      "urlBefore": "https://shop.qaautomationlabs.com/register.php",
+      "urlAfter": "https://shop.qaautomationlabs.com/register.php",
+      "screenshot": "screenshots/step-12.png",
+      "ms": 381,
+      "observation": {
+        "url": "https://shop.qaautomationlabs.com/register.php",
+        "title": "Register — E-commerce Demo for Form Automation Practice | QA Automation Labs",
+        "elements": [
+          {
+            "ref": 1,
+            "role": "link",
+            "name": "Sign in →"
+          },
+          {
+            "ref": 2,
+            "role": "textbox",
+            "name": "E-Mail*",
+            "type": "email",
+            "placeholder": "E-Mail"
+          },
+          {
+            "ref": 3,
+            "role": "spinbutton",
+            "name": "Telephone*",
+            "type": "number",
+            "placeholder": "Telephone"
+          },
+          {
+            "ref": 4,
+            "role": "radio",
+            "name": "Male",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 5,
+            "role": "radio",
+            "name": "Female",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 6,
+            "role": "radio",
+            "name": "Other",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 7,
+            "role": "textbox",
+            "name": "Date of Birth",
+            "type": "date"
+          },
+          {
+            "ref": 8,
+            "role": "combobox",
+            "name": "Country",
+            "type": "select-one",
+            "options": [
+              "Select Country",
+              "India",
+              "United States",
+              "United Kingdom",
+              "Canada",
+              "Australia",
+              "Germany"
+            ]
+          },
+          {
+            "ref": 9,
+            "role": "checkbox",
+            "name": "Fashion",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 10,
+            "role": "checkbox",
+            "name": "Electronics",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 11,
+            "role": "checkbox",
+            "name": "Sports",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 12,
+            "role": "checkbox",
+            "name": "Books",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 13,
+            "role": "textbox",
+            "name": "Profile Photo",
+            "type": "file"
+          },
+          {
+            "ref": 14,
+            "role": "textbox",
+            "name": "Password*",
+            "type": "password",
+            "placeholder": "Password"
+          },
+          {
+            "ref": 15,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 16,
+            "role": "textbox",
+            "name": "Password Confirm*",
+            "type": "password",
+            "placeholder": "Password Confirm"
+          },
+          {
+            "ref": 17,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 18,
+            "role": "button",
+            "name": "Register",
+            "type": "submit"
+          },
+          {
+            "ref": 19,
+            "role": "link",
+            "name": "QA Automation Labs"
+          },
+          {
+            "ref": 20,
+            "role": "link",
+            "name": "Back to top"
+          },
+          {
+            "ref": 21,
+            "role": "button",
+            "name": "Inspect locators",
+            "type": "submit"
+          },
+          {
+            "ref": 22,
+            "role": "button",
+            "name": "Toggle dark mode",
+            "type": "submit"
+          },
+          {
+            "ref": 23,
+            "role": "button",
+            "name": "Toggle challenge mode",
+            "type": "submit"
+          },
+          {
+            "ref": 24,
+            "role": "link",
+            "name": "QA Automation Labs"
+          },
+          {
+            "ref": 25,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 26,
+            "role": "link",
+            "name": "About"
+          },
+          {
+            "ref": 27,
+            "role": "link",
+            "name": "Courses"
+          },
+          {
+            "ref": 28,
+            "role": "link",
+            "name": "Events"
+          },
+          {
+            "ref": 29,
+            "role": "link",
+            "name": "Shop"
+          },
+          {
+            "ref": 30,
+            "role": "link",
+            "name": "API"
+          },
+          {
+            "ref": 31,
+            "role": "link",
+            "name": "Testing"
+          },
+          {
+            "ref": 32,
+            "role": "link",
+            "name": "Blog"
+          },
+          {
+            "ref": 33,
+            "role": "link",
+            "name": "Interview Preparation"
+          },
+          {
+            "ref": 34,
+            "role": "link",
+            "name": "Candidate Evaluation"
+          },
+          {
+            "ref": 35,
+            "role": "link",
+            "name": "Contacts"
+          },
+          {
+            "ref": 36,
+            "role": "textbox",
+            "name": "Search",
+            "type": "search",
+            "placeholder": "Search here..."
+          },
+          {
+            "ref": 37,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 38,
+            "role": "link",
+            "name": "login page"
+          },
+          {
+            "ref": 39,
+            "role": "textbox",
+            "name": "First Name*",
+            "type": "text",
+            "placeholder": "First Name"
+          },
+          {
+            "ref": 40,
+            "role": "textbox",
+            "name": "Last Name*",
+            "type": "text",
+            "placeholder": "Last Name"
+          }
+        ],
+        "alerts": [],
+        "headings": [
+          "Create your account"
+        ],
+        "text": "Home About Courses Events Shop API Testing Blog Interview Preparation Candidate Evaluation Contacts Home Register Create your account Practice real form validation — required fields, email & phone rules, live password strength Automate every input type: text, select, radio, checkbox, date & file upload Log in afterwards and run cart → checkout → order end-to-end Already registered? Sign in → If you already have an account with us, please login at the login page. YOUR PERSONAL DETAILS First Name* 0 characters Last Name* E-Mail* Telephone* Gender* Male Female Other Date of Birth* Country* Select Country India United States United Kingdom Canada Australia Germany Interests Fashion Electronics Sports Books Profile Photo Choose file YOUR PASSWORD Password* Password Confirm* Register © 2026 QA Automation Labs. All Rights Reserved."
+      }
+    },
+    {
+      "n": 13,
+      "action": {
+        "action": "assertVisible",
+        "text": "Last Name*",
+        "reason": "Verify the registration form displays the last-name field."
+      },
+      "status": "ok",
+      "urlBefore": "https://shop.qaautomationlabs.com/register.php",
+      "urlAfter": "https://shop.qaautomationlabs.com/register.php",
+      "screenshot": "screenshots/step-13.png",
+      "ms": 387,
+      "observation": {
+        "url": "https://shop.qaautomationlabs.com/register.php",
+        "title": "Register — E-commerce Demo for Form Automation Practice | QA Automation Labs",
+        "elements": [
+          {
+            "ref": 1,
+            "role": "link",
+            "name": "Sign in →"
+          },
+          {
+            "ref": 2,
+            "role": "textbox",
+            "name": "E-Mail*",
+            "type": "email",
+            "placeholder": "E-Mail"
+          },
+          {
+            "ref": 3,
+            "role": "spinbutton",
+            "name": "Telephone*",
+            "type": "number",
+            "placeholder": "Telephone"
+          },
+          {
+            "ref": 4,
+            "role": "radio",
+            "name": "Male",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 5,
+            "role": "radio",
+            "name": "Female",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 6,
+            "role": "radio",
+            "name": "Other",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 7,
+            "role": "textbox",
+            "name": "Date of Birth",
+            "type": "date"
+          },
+          {
+            "ref": 8,
+            "role": "combobox",
+            "name": "Country",
+            "type": "select-one",
+            "options": [
+              "Select Country",
+              "India",
+              "United States",
+              "United Kingdom",
+              "Canada",
+              "Australia",
+              "Germany"
+            ]
+          },
+          {
+            "ref": 9,
+            "role": "checkbox",
+            "name": "Fashion",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 10,
+            "role": "checkbox",
+            "name": "Electronics",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 11,
+            "role": "checkbox",
+            "name": "Sports",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 12,
+            "role": "checkbox",
+            "name": "Books",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 13,
+            "role": "textbox",
+            "name": "Profile Photo",
+            "type": "file"
+          },
+          {
+            "ref": 14,
+            "role": "textbox",
+            "name": "Password*",
+            "type": "password",
+            "placeholder": "Password"
+          },
+          {
+            "ref": 15,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 16,
+            "role": "textbox",
+            "name": "Password Confirm*",
+            "type": "password",
+            "placeholder": "Password Confirm"
+          },
+          {
+            "ref": 17,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 18,
+            "role": "button",
+            "name": "Register",
+            "type": "submit"
+          },
+          {
+            "ref": 19,
+            "role": "link",
+            "name": "QA Automation Labs"
+          },
+          {
+            "ref": 20,
+            "role": "link",
+            "name": "Back to top"
+          },
+          {
+            "ref": 21,
+            "role": "button",
+            "name": "Inspect locators",
+            "type": "submit"
+          },
+          {
+            "ref": 22,
+            "role": "button",
+            "name": "Toggle dark mode",
+            "type": "submit"
+          },
+          {
+            "ref": 23,
+            "role": "button",
+            "name": "Toggle challenge mode",
+            "type": "submit"
+          },
+          {
+            "ref": 24,
+            "role": "link",
+            "name": "QA Automation Labs"
+          },
+          {
+            "ref": 25,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 26,
+            "role": "link",
+            "name": "About"
+          },
+          {
+            "ref": 27,
+            "role": "link",
+            "name": "Courses"
+          },
+          {
+            "ref": 28,
+            "role": "link",
+            "name": "Events"
+          },
+          {
+            "ref": 29,
+            "role": "link",
+            "name": "Shop"
+          },
+          {
+            "ref": 30,
+            "role": "link",
+            "name": "API"
+          },
+          {
+            "ref": 31,
+            "role": "link",
+            "name": "Testing"
+          },
+          {
+            "ref": 32,
+            "role": "link",
+            "name": "Blog"
+          },
+          {
+            "ref": 33,
+            "role": "link",
+            "name": "Interview Preparation"
+          },
+          {
+            "ref": 34,
+            "role": "link",
+            "name": "Candidate Evaluation"
+          },
+          {
+            "ref": 35,
+            "role": "link",
+            "name": "Contacts"
+          },
+          {
+            "ref": 36,
+            "role": "textbox",
+            "name": "Search",
+            "type": "search",
+            "placeholder": "Search here..."
+          },
+          {
+            "ref": 37,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 38,
+            "role": "link",
+            "name": "login page"
+          },
+          {
+            "ref": 39,
+            "role": "textbox",
+            "name": "First Name*",
+            "type": "text",
+            "placeholder": "First Name"
+          },
+          {
+            "ref": 40,
+            "role": "textbox",
+            "name": "Last Name*",
+            "type": "text",
+            "placeholder": "Last Name"
+          }
+        ],
+        "alerts": [],
+        "headings": [
+          "Create your account"
+        ],
+        "text": "Home About Courses Events Shop API Testing Blog Interview Preparation Candidate Evaluation Contacts Home Register Create your account Practice real form validation — required fields, email & phone rules, live password strength Automate every input type: text, select, radio, checkbox, date & file upload Log in afterwards and run cart → checkout → order end-to-end Already registered? Sign in → If you already have an account with us, please login at the login page. YOUR PERSONAL DETAILS First Name* 0 characters Last Name* E-Mail* Telephone* Gender* Male Female Other Date of Birth* Country* Select Country India United States United Kingdom Canada Australia Germany Interests Fashion Electronics Sports Books Profile Photo Choose file YOUR PASSWORD Password* Password Confirm* Register © 2026 QA Automation Labs. All Rights Reserved."
+      }
+    },
+    {
+      "n": 14,
+      "action": {
+        "action": "assertVisible",
+        "text": "E-Mail*",
+        "reason": "Verify the registration form displays its email field."
+      },
+      "status": "ok",
+      "urlBefore": "https://shop.qaautomationlabs.com/register.php",
+      "urlAfter": "https://shop.qaautomationlabs.com/register.php",
+      "screenshot": "screenshots/step-14.png",
+      "ms": 365,
+      "observation": {
+        "url": "https://shop.qaautomationlabs.com/register.php",
+        "title": "Register — E-commerce Demo for Form Automation Practice | QA Automation Labs",
+        "elements": [
+          {
+            "ref": 1,
+            "role": "link",
+            "name": "Sign in →"
+          },
+          {
+            "ref": 2,
+            "role": "textbox",
+            "name": "E-Mail*",
+            "type": "email",
+            "placeholder": "E-Mail"
+          },
+          {
+            "ref": 3,
+            "role": "spinbutton",
+            "name": "Telephone*",
+            "type": "number",
+            "placeholder": "Telephone"
+          },
+          {
+            "ref": 4,
+            "role": "radio",
+            "name": "Male",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 5,
+            "role": "radio",
+            "name": "Female",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 6,
+            "role": "radio",
+            "name": "Other",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 7,
+            "role": "textbox",
+            "name": "Date of Birth",
+            "type": "date"
+          },
+          {
+            "ref": 8,
+            "role": "combobox",
+            "name": "Country",
+            "type": "select-one",
+            "options": [
+              "Select Country",
+              "India",
+              "United States",
+              "United Kingdom",
+              "Canada",
+              "Australia",
+              "Germany"
+            ]
+          },
+          {
+            "ref": 9,
+            "role": "checkbox",
+            "name": "Fashion",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 10,
+            "role": "checkbox",
+            "name": "Electronics",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 11,
+            "role": "checkbox",
+            "name": "Sports",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 12,
+            "role": "checkbox",
+            "name": "Books",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 13,
+            "role": "textbox",
+            "name": "Profile Photo",
+            "type": "file"
+          },
+          {
+            "ref": 14,
+            "role": "textbox",
+            "name": "Password*",
+            "type": "password",
+            "placeholder": "Password"
+          },
+          {
+            "ref": 15,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 16,
+            "role": "textbox",
+            "name": "Password Confirm*",
+            "type": "password",
+            "placeholder": "Password Confirm"
+          },
+          {
+            "ref": 17,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 18,
+            "role": "button",
+            "name": "Register",
+            "type": "submit"
+          },
+          {
+            "ref": 19,
+            "role": "link",
+            "name": "QA Automation Labs"
+          },
+          {
+            "ref": 20,
+            "role": "link",
+            "name": "Back to top"
+          },
+          {
+            "ref": 21,
+            "role": "button",
+            "name": "Inspect locators",
+            "type": "submit"
+          },
+          {
+            "ref": 22,
+            "role": "button",
+            "name": "Toggle dark mode",
+            "type": "submit"
+          },
+          {
+            "ref": 23,
+            "role": "button",
+            "name": "Toggle challenge mode",
+            "type": "submit"
+          },
+          {
+            "ref": 24,
+            "role": "link",
+            "name": "QA Automation Labs"
+          },
+          {
+            "ref": 25,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 26,
+            "role": "link",
+            "name": "About"
+          },
+          {
+            "ref": 27,
+            "role": "link",
+            "name": "Courses"
+          },
+          {
+            "ref": 28,
+            "role": "link",
+            "name": "Events"
+          },
+          {
+            "ref": 29,
+            "role": "link",
+            "name": "Shop"
+          },
+          {
+            "ref": 30,
+            "role": "link",
+            "name": "API"
+          },
+          {
+            "ref": 31,
+            "role": "link",
+            "name": "Testing"
+          },
+          {
+            "ref": 32,
+            "role": "link",
+            "name": "Blog"
+          },
+          {
+            "ref": 33,
+            "role": "link",
+            "name": "Interview Preparation"
+          },
+          {
+            "ref": 34,
+            "role": "link",
+            "name": "Candidate Evaluation"
+          },
+          {
+            "ref": 35,
+            "role": "link",
+            "name": "Contacts"
+          },
+          {
+            "ref": 36,
+            "role": "textbox",
+            "name": "Search",
+            "type": "search",
+            "placeholder": "Search here..."
+          },
+          {
+            "ref": 37,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 38,
+            "role": "link",
+            "name": "login page"
+          },
+          {
+            "ref": 39,
+            "role": "textbox",
+            "name": "First Name*",
+            "type": "text",
+            "placeholder": "First Name"
+          },
+          {
+            "ref": 40,
+            "role": "textbox",
+            "name": "Last Name*",
+            "type": "text",
+            "placeholder": "Last Name"
+          }
+        ],
+        "alerts": [],
+        "headings": [
+          "Create your account"
+        ],
+        "text": "Home About Courses Events Shop API Testing Blog Interview Preparation Candidate Evaluation Contacts Home Register Create your account Practice real form validation — required fields, email & phone rules, live password strength Automate every input type: text, select, radio, checkbox, date & file upload Log in afterwards and run cart → checkout → order end-to-end Already registered? Sign in → If you already have an account with us, please login at the login page. YOUR PERSONAL DETAILS First Name* 0 characters Last Name* E-Mail* Telephone* Gender* Male Female Other Date of Birth* Country* Select Country India United States United Kingdom Canada Australia Germany Interests Fashion Electronics Sports Books Profile Photo Choose file YOUR PASSWORD Password* Password Confirm* Register © 2026 QA Automation Labs. All Rights Reserved."
+      }
+    },
+    {
+      "n": 15,
+      "action": {
+        "action": "assertVisible",
+        "text": "Telephone*",
+        "reason": "Verify the registration form displays the telephone field."
+      },
+      "status": "ok",
+      "urlBefore": "https://shop.qaautomationlabs.com/register.php",
+      "urlAfter": "https://shop.qaautomationlabs.com/register.php",
+      "screenshot": "screenshots/step-15.png",
+      "ms": 372,
+      "observation": {
+        "url": "https://shop.qaautomationlabs.com/register.php",
+        "title": "Register — E-commerce Demo for Form Automation Practice | QA Automation Labs",
+        "elements": [
+          {
+            "ref": 1,
+            "role": "link",
+            "name": "Sign in →"
+          },
+          {
+            "ref": 2,
+            "role": "textbox",
+            "name": "E-Mail*",
+            "type": "email",
+            "placeholder": "E-Mail"
+          },
+          {
+            "ref": 3,
+            "role": "spinbutton",
+            "name": "Telephone*",
+            "type": "number",
+            "placeholder": "Telephone"
+          },
+          {
+            "ref": 4,
+            "role": "radio",
+            "name": "Male",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 5,
+            "role": "radio",
+            "name": "Female",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 6,
+            "role": "radio",
+            "name": "Other",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 7,
+            "role": "textbox",
+            "name": "Date of Birth",
+            "type": "date"
+          },
+          {
+            "ref": 8,
+            "role": "combobox",
+            "name": "Country",
+            "type": "select-one",
+            "options": [
+              "Select Country",
+              "India",
+              "United States",
+              "United Kingdom",
+              "Canada",
+              "Australia",
+              "Germany"
+            ]
+          },
+          {
+            "ref": 9,
+            "role": "checkbox",
+            "name": "Fashion",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 10,
+            "role": "checkbox",
+            "name": "Electronics",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 11,
+            "role": "checkbox",
+            "name": "Sports",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 12,
+            "role": "checkbox",
+            "name": "Books",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 13,
+            "role": "textbox",
+            "name": "Profile Photo",
+            "type": "file"
+          },
+          {
+            "ref": 14,
+            "role": "textbox",
+            "name": "Password*",
+            "type": "password",
+            "placeholder": "Password"
+          },
+          {
+            "ref": 15,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 16,
+            "role": "textbox",
+            "name": "Password Confirm*",
+            "type": "password",
+            "placeholder": "Password Confirm"
+          },
+          {
+            "ref": 17,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 18,
+            "role": "button",
+            "name": "Register",
+            "type": "submit"
+          },
+          {
+            "ref": 19,
+            "role": "link",
+            "name": "QA Automation Labs"
+          },
+          {
+            "ref": 20,
+            "role": "link",
+            "name": "Back to top"
+          },
+          {
+            "ref": 21,
+            "role": "button",
+            "name": "Inspect locators",
+            "type": "submit"
+          },
+          {
+            "ref": 22,
+            "role": "button",
+            "name": "Toggle dark mode",
+            "type": "submit"
+          },
+          {
+            "ref": 23,
+            "role": "button",
+            "name": "Toggle challenge mode",
+            "type": "submit"
+          },
+          {
+            "ref": 24,
+            "role": "link",
+            "name": "QA Automation Labs"
+          },
+          {
+            "ref": 25,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 26,
+            "role": "link",
+            "name": "About"
+          },
+          {
+            "ref": 27,
+            "role": "link",
+            "name": "Courses"
+          },
+          {
+            "ref": 28,
+            "role": "link",
+            "name": "Events"
+          },
+          {
+            "ref": 29,
+            "role": "link",
+            "name": "Shop"
+          },
+          {
+            "ref": 30,
+            "role": "link",
+            "name": "API"
+          },
+          {
+            "ref": 31,
+            "role": "link",
+            "name": "Testing"
+          },
+          {
+            "ref": 32,
+            "role": "link",
+            "name": "Blog"
+          },
+          {
+            "ref": 33,
+            "role": "link",
+            "name": "Interview Preparation"
+          },
+          {
+            "ref": 34,
+            "role": "link",
+            "name": "Candidate Evaluation"
+          },
+          {
+            "ref": 35,
+            "role": "link",
+            "name": "Contacts"
+          },
+          {
+            "ref": 36,
+            "role": "textbox",
+            "name": "Search",
+            "type": "search",
+            "placeholder": "Search here..."
+          },
+          {
+            "ref": 37,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 38,
+            "role": "link",
+            "name": "login page"
+          },
+          {
+            "ref": 39,
+            "role": "textbox",
+            "name": "First Name*",
+            "type": "text",
+            "placeholder": "First Name"
+          },
+          {
+            "ref": 40,
+            "role": "textbox",
+            "name": "Last Name*",
+            "type": "text",
+            "placeholder": "Last Name"
+          }
+        ],
+        "alerts": [],
+        "headings": [
+          "Create your account"
+        ],
+        "text": "Home About Courses Events Shop API Testing Blog Interview Preparation Candidate Evaluation Contacts Home Register Create your account Practice real form validation — required fields, email & phone rules, live password strength Automate every input type: text, select, radio, checkbox, date & file upload Log in afterwards and run cart → checkout → order end-to-end Already registered? Sign in → If you already have an account with us, please login at the login page. YOUR PERSONAL DETAILS First Name* 0 characters Last Name* E-Mail* Telephone* Gender* Male Female Other Date of Birth* Country* Select Country India United States United Kingdom Canada Australia Germany Interests Fashion Electronics Sports Books Profile Photo Choose file YOUR PASSWORD Password* Password Confirm* Register © 2026 QA Automation Labs. All Rights Reserved."
+      }
+    },
+    {
+      "n": 16,
+      "action": {
+        "action": "assertVisible",
+        "text": "Gender*",
+        "reason": "Verify the registration form includes the gender field."
+      },
+      "status": "ok",
+      "urlBefore": "https://shop.qaautomationlabs.com/register.php",
+      "urlAfter": "https://shop.qaautomationlabs.com/register.php",
+      "screenshot": "screenshots/step-16.png",
+      "ms": 399,
+      "observation": {
+        "url": "https://shop.qaautomationlabs.com/register.php",
+        "title": "Register — E-commerce Demo for Form Automation Practice | QA Automation Labs",
+        "elements": [
+          {
+            "ref": 1,
+            "role": "link",
+            "name": "Sign in →"
+          },
+          {
+            "ref": 2,
+            "role": "textbox",
+            "name": "E-Mail*",
+            "type": "email",
+            "placeholder": "E-Mail"
+          },
+          {
+            "ref": 3,
+            "role": "spinbutton",
+            "name": "Telephone*",
+            "type": "number",
+            "placeholder": "Telephone"
+          },
+          {
+            "ref": 4,
+            "role": "radio",
+            "name": "Male",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 5,
+            "role": "radio",
+            "name": "Female",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 6,
+            "role": "radio",
+            "name": "Other",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 7,
+            "role": "textbox",
+            "name": "Date of Birth",
+            "type": "date"
+          },
+          {
+            "ref": 8,
+            "role": "combobox",
+            "name": "Country",
+            "type": "select-one",
+            "options": [
+              "Select Country",
+              "India",
+              "United States",
+              "United Kingdom",
+              "Canada",
+              "Australia",
+              "Germany"
+            ]
+          },
+          {
+            "ref": 9,
+            "role": "checkbox",
+            "name": "Fashion",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 10,
+            "role": "checkbox",
+            "name": "Electronics",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 11,
+            "role": "checkbox",
+            "name": "Sports",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 12,
+            "role": "checkbox",
+            "name": "Books",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 13,
+            "role": "textbox",
+            "name": "Profile Photo",
+            "type": "file"
+          },
+          {
+            "ref": 14,
+            "role": "textbox",
+            "name": "Password*",
+            "type": "password",
+            "placeholder": "Password"
+          },
+          {
+            "ref": 15,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 16,
+            "role": "textbox",
+            "name": "Password Confirm*",
+            "type": "password",
+            "placeholder": "Password Confirm"
+          },
+          {
+            "ref": 17,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 18,
+            "role": "button",
+            "name": "Register",
+            "type": "submit"
+          },
+          {
+            "ref": 19,
+            "role": "link",
+            "name": "QA Automation Labs"
+          },
+          {
+            "ref": 20,
+            "role": "link",
+            "name": "Back to top"
+          },
+          {
+            "ref": 21,
+            "role": "button",
+            "name": "Inspect locators",
+            "type": "submit"
+          },
+          {
+            "ref": 22,
+            "role": "button",
+            "name": "Toggle dark mode",
+            "type": "submit"
+          },
+          {
+            "ref": 23,
+            "role": "button",
+            "name": "Toggle challenge mode",
+            "type": "submit"
+          },
+          {
+            "ref": 24,
+            "role": "link",
+            "name": "QA Automation Labs"
+          },
+          {
+            "ref": 25,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 26,
+            "role": "link",
+            "name": "About"
+          },
+          {
+            "ref": 27,
+            "role": "link",
+            "name": "Courses"
+          },
+          {
+            "ref": 28,
+            "role": "link",
+            "name": "Events"
+          },
+          {
+            "ref": 29,
+            "role": "link",
+            "name": "Shop"
+          },
+          {
+            "ref": 30,
+            "role": "link",
+            "name": "API"
+          },
+          {
+            "ref": 31,
+            "role": "link",
+            "name": "Testing"
+          },
+          {
+            "ref": 32,
+            "role": "link",
+            "name": "Blog"
+          },
+          {
+            "ref": 33,
+            "role": "link",
+            "name": "Interview Preparation"
+          },
+          {
+            "ref": 34,
+            "role": "link",
+            "name": "Candidate Evaluation"
+          },
+          {
+            "ref": 35,
+            "role": "link",
+            "name": "Contacts"
+          },
+          {
+            "ref": 36,
+            "role": "textbox",
+            "name": "Search",
+            "type": "search",
+            "placeholder": "Search here..."
+          },
+          {
+            "ref": 37,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 38,
+            "role": "link",
+            "name": "login page"
+          },
+          {
+            "ref": 39,
+            "role": "textbox",
+            "name": "First Name*",
+            "type": "text",
+            "placeholder": "First Name"
+          },
+          {
+            "ref": 40,
+            "role": "textbox",
+            "name": "Last Name*",
+            "type": "text",
+            "placeholder": "Last Name"
+          }
+        ],
+        "alerts": [],
+        "headings": [
+          "Create your account"
+        ],
+        "text": "Home About Courses Events Shop API Testing Blog Interview Preparation Candidate Evaluation Contacts Home Register Create your account Practice real form validation — required fields, email & phone rules, live password strength Automate every input type: text, select, radio, checkbox, date & file upload Log in afterwards and run cart → checkout → order end-to-end Already registered? Sign in → If you already have an account with us, please login at the login page. YOUR PERSONAL DETAILS First Name* 0 characters Last Name* E-Mail* Telephone* Gender* Male Female Other Date of Birth* Country* Select Country India United States United Kingdom Canada Australia Germany Interests Fashion Electronics Sports Books Profile Photo Choose file YOUR PASSWORD Password* Password Confirm* Register © 2026 QA Automation Labs. All Rights Reserved."
+      }
+    },
+    {
+      "n": 17,
+      "action": {
+        "action": "assertVisible",
+        "text": "Date of Birth",
+        "reason": "Verify the registration form displays its date-of-birth field."
+      },
+      "status": "ok",
+      "urlBefore": "https://shop.qaautomationlabs.com/register.php",
+      "urlAfter": "https://shop.qaautomationlabs.com/register.php",
+      "screenshot": "screenshots/step-17.png",
+      "ms": 412,
+      "observation": {
+        "url": "https://shop.qaautomationlabs.com/register.php",
+        "title": "Register — E-commerce Demo for Form Automation Practice | QA Automation Labs",
+        "elements": [
+          {
+            "ref": 1,
+            "role": "link",
+            "name": "Sign in →"
+          },
+          {
+            "ref": 2,
+            "role": "textbox",
+            "name": "E-Mail*",
+            "type": "email",
+            "placeholder": "E-Mail"
+          },
+          {
+            "ref": 3,
+            "role": "spinbutton",
+            "name": "Telephone*",
+            "type": "number",
+            "placeholder": "Telephone"
+          },
+          {
+            "ref": 4,
+            "role": "radio",
+            "name": "Male",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 5,
+            "role": "radio",
+            "name": "Female",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 6,
+            "role": "radio",
+            "name": "Other",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 7,
+            "role": "textbox",
+            "name": "Date of Birth",
+            "type": "date"
+          },
+          {
+            "ref": 8,
+            "role": "combobox",
+            "name": "Country",
+            "type": "select-one",
+            "options": [
+              "Select Country",
+              "India",
+              "United States",
+              "United Kingdom",
+              "Canada",
+              "Australia",
+              "Germany"
+            ]
+          },
+          {
+            "ref": 9,
+            "role": "checkbox",
+            "name": "Fashion",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 10,
+            "role": "checkbox",
+            "name": "Electronics",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 11,
+            "role": "checkbox",
+            "name": "Sports",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 12,
+            "role": "checkbox",
+            "name": "Books",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 13,
+            "role": "textbox",
+            "name": "Profile Photo",
+            "type": "file"
+          },
+          {
+            "ref": 14,
+            "role": "textbox",
+            "name": "Password*",
+            "type": "password",
+            "placeholder": "Password"
+          },
+          {
+            "ref": 15,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 16,
+            "role": "textbox",
+            "name": "Password Confirm*",
+            "type": "password",
+            "placeholder": "Password Confirm"
+          },
+          {
+            "ref": 17,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 18,
+            "role": "button",
+            "name": "Register",
+            "type": "submit"
+          },
+          {
+            "ref": 19,
+            "role": "link",
+            "name": "QA Automation Labs"
+          },
+          {
+            "ref": 20,
+            "role": "link",
+            "name": "Back to top"
+          },
+          {
+            "ref": 21,
+            "role": "button",
+            "name": "Inspect locators",
+            "type": "submit"
+          },
+          {
+            "ref": 22,
+            "role": "button",
+            "name": "Toggle dark mode",
+            "type": "submit"
+          },
+          {
+            "ref": 23,
+            "role": "button",
+            "name": "Toggle challenge mode",
+            "type": "submit"
+          },
+          {
+            "ref": 24,
+            "role": "link",
+            "name": "QA Automation Labs"
+          },
+          {
+            "ref": 25,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 26,
+            "role": "link",
+            "name": "About"
+          },
+          {
+            "ref": 27,
+            "role": "link",
+            "name": "Courses"
+          },
+          {
+            "ref": 28,
+            "role": "link",
+            "name": "Events"
+          },
+          {
+            "ref": 29,
+            "role": "link",
+            "name": "Shop"
+          },
+          {
+            "ref": 30,
+            "role": "link",
+            "name": "API"
+          },
+          {
+            "ref": 31,
+            "role": "link",
+            "name": "Testing"
+          },
+          {
+            "ref": 32,
+            "role": "link",
+            "name": "Blog"
+          },
+          {
+            "ref": 33,
+            "role": "link",
+            "name": "Interview Preparation"
+          },
+          {
+            "ref": 34,
+            "role": "link",
+            "name": "Candidate Evaluation"
+          },
+          {
+            "ref": 35,
+            "role": "link",
+            "name": "Contacts"
+          },
+          {
+            "ref": 36,
+            "role": "textbox",
+            "name": "Search",
+            "type": "search",
+            "placeholder": "Search here..."
+          },
+          {
+            "ref": 37,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 38,
+            "role": "link",
+            "name": "login page"
+          },
+          {
+            "ref": 39,
+            "role": "textbox",
+            "name": "First Name*",
+            "type": "text",
+            "placeholder": "First Name"
+          },
+          {
+            "ref": 40,
+            "role": "textbox",
+            "name": "Last Name*",
+            "type": "text",
+            "placeholder": "Last Name"
+          }
+        ],
+        "alerts": [],
+        "headings": [
+          "Create your account"
+        ],
+        "text": "Home About Courses Events Shop API Testing Blog Interview Preparation Candidate Evaluation Contacts Home Register Create your account Practice real form validation — required fields, email & phone rules, live password strength Automate every input type: text, select, radio, checkbox, date & file upload Log in afterwards and run cart → checkout → order end-to-end Already registered? Sign in → If you already have an account with us, please login at the login page. YOUR PERSONAL DETAILS First Name* 0 characters Last Name* E-Mail* Telephone* Gender* Male Female Other Date of Birth* Country* Select Country India United States United Kingdom Canada Australia Germany Interests Fashion Electronics Sports Books Profile Photo Choose file YOUR PASSWORD Password* Password Confirm* Register © 2026 QA Automation Labs. All Rights Reserved."
+      }
+    },
+    {
+      "n": 18,
+      "action": {
+        "action": "assertVisible",
+        "text": "Country*",
+        "reason": "Verify the registration form displays its country field."
+      },
+      "status": "ok",
+      "urlBefore": "https://shop.qaautomationlabs.com/register.php",
+      "urlAfter": "https://shop.qaautomationlabs.com/register.php",
+      "screenshot": "screenshots/step-18.png",
+      "ms": 438,
+      "observation": {
+        "url": "https://shop.qaautomationlabs.com/register.php",
+        "title": "Register — E-commerce Demo for Form Automation Practice | QA Automation Labs",
+        "elements": [
+          {
+            "ref": 1,
+            "role": "link",
+            "name": "Sign in →"
+          },
+          {
+            "ref": 2,
+            "role": "textbox",
+            "name": "E-Mail*",
+            "type": "email",
+            "placeholder": "E-Mail"
+          },
+          {
+            "ref": 3,
+            "role": "spinbutton",
+            "name": "Telephone*",
+            "type": "number",
+            "placeholder": "Telephone"
+          },
+          {
+            "ref": 4,
+            "role": "radio",
+            "name": "Male",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 5,
+            "role": "radio",
+            "name": "Female",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 6,
+            "role": "radio",
+            "name": "Other",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 7,
+            "role": "textbox",
+            "name": "Date of Birth",
+            "type": "date"
+          },
+          {
+            "ref": 8,
+            "role": "combobox",
+            "name": "Country",
+            "type": "select-one",
+            "options": [
+              "Select Country",
+              "India",
+              "United States",
+              "United Kingdom",
+              "Canada",
+              "Australia",
+              "Germany"
+            ]
+          },
+          {
+            "ref": 9,
+            "role": "checkbox",
+            "name": "Fashion",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 10,
+            "role": "checkbox",
+            "name": "Electronics",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 11,
+            "role": "checkbox",
+            "name": "Sports",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 12,
+            "role": "checkbox",
+            "name": "Books",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 13,
+            "role": "textbox",
+            "name": "Profile Photo",
+            "type": "file"
+          },
+          {
+            "ref": 14,
+            "role": "textbox",
+            "name": "Password*",
+            "type": "password",
+            "placeholder": "Password"
+          },
+          {
+            "ref": 15,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 16,
+            "role": "textbox",
+            "name": "Password Confirm*",
+            "type": "password",
+            "placeholder": "Password Confirm"
+          },
+          {
+            "ref": 17,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 18,
+            "role": "button",
+            "name": "Register",
+            "type": "submit"
+          },
+          {
+            "ref": 19,
+            "role": "link",
+            "name": "QA Automation Labs"
+          },
+          {
+            "ref": 20,
+            "role": "link",
+            "name": "Back to top"
+          },
+          {
+            "ref": 21,
+            "role": "button",
+            "name": "Inspect locators",
+            "type": "submit"
+          },
+          {
+            "ref": 22,
+            "role": "button",
+            "name": "Toggle dark mode",
+            "type": "submit"
+          },
+          {
+            "ref": 23,
+            "role": "button",
+            "name": "Toggle challenge mode",
+            "type": "submit"
+          },
+          {
+            "ref": 24,
+            "role": "link",
+            "name": "QA Automation Labs"
+          },
+          {
+            "ref": 25,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 26,
+            "role": "link",
+            "name": "About"
+          },
+          {
+            "ref": 27,
+            "role": "link",
+            "name": "Courses"
+          },
+          {
+            "ref": 28,
+            "role": "link",
+            "name": "Events"
+          },
+          {
+            "ref": 29,
+            "role": "link",
+            "name": "Shop"
+          },
+          {
+            "ref": 30,
+            "role": "link",
+            "name": "API"
+          },
+          {
+            "ref": 31,
+            "role": "link",
+            "name": "Testing"
+          },
+          {
+            "ref": 32,
+            "role": "link",
+            "name": "Blog"
+          },
+          {
+            "ref": 33,
+            "role": "link",
+            "name": "Interview Preparation"
+          },
+          {
+            "ref": 34,
+            "role": "link",
+            "name": "Candidate Evaluation"
+          },
+          {
+            "ref": 35,
+            "role": "link",
+            "name": "Contacts"
+          },
+          {
+            "ref": 36,
+            "role": "textbox",
+            "name": "Search",
+            "type": "search",
+            "placeholder": "Search here..."
+          },
+          {
+            "ref": 37,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 38,
+            "role": "link",
+            "name": "login page"
+          },
+          {
+            "ref": 39,
+            "role": "textbox",
+            "name": "First Name*",
+            "type": "text",
+            "placeholder": "First Name"
+          },
+          {
+            "ref": 40,
+            "role": "textbox",
+            "name": "Last Name*",
+            "type": "text",
+            "placeholder": "Last Name"
+          }
+        ],
+        "alerts": [],
+        "headings": [
+          "Create your account"
+        ],
+        "text": "Home About Courses Events Shop API Testing Blog Interview Preparation Candidate Evaluation Contacts Home Register Create your account Practice real form validation — required fields, email & phone rules, live password strength Automate every input type: text, select, radio, checkbox, date & file upload Log in afterwards and run cart → checkout → order end-to-end Already registered? Sign in → If you already have an account with us, please login at the login page. YOUR PERSONAL DETAILS First Name* 0 characters Last Name* E-Mail* Telephone* Gender* Male Female Other Date of Birth* Country* Select Country India United States United Kingdom Canada Australia Germany Interests Fashion Electronics Sports Books Profile Photo Choose file YOUR PASSWORD Password* Password Confirm* Register © 2026 QA Automation Labs. All Rights Reserved."
+      }
+    },
+    {
+      "n": 19,
+      "action": {
+        "action": "assertVisible",
+        "text": "Password*",
+        "reason": "Verify the registration form displays the password field, continuing the field checks."
+      },
+      "status": "ok",
+      "urlBefore": "https://shop.qaautomationlabs.com/register.php",
+      "urlAfter": "https://shop.qaautomationlabs.com/register.php",
+      "screenshot": "screenshots/step-19.png",
+      "ms": 388,
+      "observation": {
+        "url": "https://shop.qaautomationlabs.com/register.php",
+        "title": "Register — E-commerce Demo for Form Automation Practice | QA Automation Labs",
+        "elements": [
+          {
+            "ref": 1,
+            "role": "link",
+            "name": "Sign in →"
+          },
+          {
+            "ref": 2,
+            "role": "textbox",
+            "name": "E-Mail*",
+            "type": "email",
+            "placeholder": "E-Mail"
+          },
+          {
+            "ref": 3,
+            "role": "spinbutton",
+            "name": "Telephone*",
+            "type": "number",
+            "placeholder": "Telephone"
+          },
+          {
+            "ref": 4,
+            "role": "radio",
+            "name": "Male",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 5,
+            "role": "radio",
+            "name": "Female",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 6,
+            "role": "radio",
+            "name": "Other",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 7,
+            "role": "textbox",
+            "name": "Date of Birth",
+            "type": "date"
+          },
+          {
+            "ref": 8,
+            "role": "combobox",
+            "name": "Country",
+            "type": "select-one",
+            "options": [
+              "Select Country",
+              "India",
+              "United States",
+              "United Kingdom",
+              "Canada",
+              "Australia",
+              "Germany"
+            ]
+          },
+          {
+            "ref": 9,
+            "role": "checkbox",
+            "name": "Fashion",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 10,
+            "role": "checkbox",
+            "name": "Electronics",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 11,
+            "role": "checkbox",
+            "name": "Sports",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 12,
+            "role": "checkbox",
+            "name": "Books",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 13,
+            "role": "textbox",
+            "name": "Profile Photo",
+            "type": "file"
+          },
+          {
+            "ref": 14,
+            "role": "textbox",
+            "name": "Password*",
+            "type": "password",
+            "placeholder": "Password"
+          },
+          {
+            "ref": 15,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 16,
+            "role": "textbox",
+            "name": "Password Confirm*",
+            "type": "password",
+            "placeholder": "Password Confirm"
+          },
+          {
+            "ref": 17,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 18,
+            "role": "button",
+            "name": "Register",
+            "type": "submit"
+          },
+          {
+            "ref": 19,
+            "role": "link",
+            "name": "QA Automation Labs"
+          },
+          {
+            "ref": 20,
+            "role": "link",
+            "name": "Back to top"
+          },
+          {
+            "ref": 21,
+            "role": "button",
+            "name": "Inspect locators",
+            "type": "submit"
+          },
+          {
+            "ref": 22,
+            "role": "button",
+            "name": "Toggle dark mode",
+            "type": "submit"
+          },
+          {
+            "ref": 23,
+            "role": "button",
+            "name": "Toggle challenge mode",
+            "type": "submit"
+          },
+          {
+            "ref": 24,
+            "role": "link",
+            "name": "QA Automation Labs"
+          },
+          {
+            "ref": 25,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 26,
+            "role": "link",
+            "name": "About"
+          },
+          {
+            "ref": 27,
+            "role": "link",
+            "name": "Courses"
+          },
+          {
+            "ref": 28,
+            "role": "link",
+            "name": "Events"
+          },
+          {
+            "ref": 29,
+            "role": "link",
+            "name": "Shop"
+          },
+          {
+            "ref": 30,
+            "role": "link",
+            "name": "API"
+          },
+          {
+            "ref": 31,
+            "role": "link",
+            "name": "Testing"
+          },
+          {
+            "ref": 32,
+            "role": "link",
+            "name": "Blog"
+          },
+          {
+            "ref": 33,
+            "role": "link",
+            "name": "Interview Preparation"
+          },
+          {
+            "ref": 34,
+            "role": "link",
+            "name": "Candidate Evaluation"
+          },
+          {
+            "ref": 35,
+            "role": "link",
+            "name": "Contacts"
+          },
+          {
+            "ref": 36,
+            "role": "textbox",
+            "name": "Search",
+            "type": "search",
+            "placeholder": "Search here..."
+          },
+          {
+            "ref": 37,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 38,
+            "role": "link",
+            "name": "login page"
+          },
+          {
+            "ref": 39,
+            "role": "textbox",
+            "name": "First Name*",
+            "type": "text",
+            "placeholder": "First Name"
+          },
+          {
+            "ref": 40,
+            "role": "textbox",
+            "name": "Last Name*",
+            "type": "text",
+            "placeholder": "Last Name"
+          }
+        ],
+        "alerts": [],
+        "headings": [
+          "Create your account"
+        ],
+        "text": "Home About Courses Events Shop API Testing Blog Interview Preparation Candidate Evaluation Contacts Home Register Create your account Practice real form validation — required fields, email & phone rules, live password strength Automate every input type: text, select, radio, checkbox, date & file upload Log in afterwards and run cart → checkout → order end-to-end Already registered? Sign in → If you already have an account with us, please login at the login page. YOUR PERSONAL DETAILS First Name* 0 characters Last Name* E-Mail* Telephone* Gender* Male Female Other Date of Birth* Country* Select Country India United States United Kingdom Canada Australia Germany Interests Fashion Electronics Sports Books Profile Photo Choose file YOUR PASSWORD Password* Password Confirm* Register © 2026 QA Automation Labs. All Rights Reserved."
+      }
+    },
+    {
+      "n": 20,
+      "action": {
+        "action": "assertVisible",
+        "text": "Password Confirm",
+        "reason": "Verify the registration form displays the password confirmation field."
+      },
+      "status": "ok",
+      "urlBefore": "https://shop.qaautomationlabs.com/register.php",
+      "urlAfter": "https://shop.qaautomationlabs.com/register.php",
+      "screenshot": "screenshots/step-20.png",
+      "ms": 389,
+      "observation": {
+        "url": "https://shop.qaautomationlabs.com/register.php",
+        "title": "Register — E-commerce Demo for Form Automation Practice | QA Automation Labs",
+        "elements": [
+          {
+            "ref": 1,
+            "role": "link",
+            "name": "Sign in →"
+          },
+          {
+            "ref": 2,
+            "role": "textbox",
+            "name": "E-Mail*",
+            "type": "email",
+            "placeholder": "E-Mail"
+          },
+          {
+            "ref": 3,
+            "role": "spinbutton",
+            "name": "Telephone*",
+            "type": "number",
+            "placeholder": "Telephone"
+          },
+          {
+            "ref": 4,
+            "role": "radio",
+            "name": "Male",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 5,
+            "role": "radio",
+            "name": "Female",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 6,
+            "role": "radio",
+            "name": "Other",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 7,
+            "role": "textbox",
+            "name": "Date of Birth",
+            "type": "date"
+          },
+          {
+            "ref": 8,
+            "role": "combobox",
+            "name": "Country",
+            "type": "select-one",
+            "options": [
+              "Select Country",
+              "India",
+              "United States",
+              "United Kingdom",
+              "Canada",
+              "Australia",
+              "Germany"
+            ]
+          },
+          {
+            "ref": 9,
+            "role": "checkbox",
+            "name": "Fashion",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 10,
+            "role": "checkbox",
+            "name": "Electronics",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 11,
+            "role": "checkbox",
+            "name": "Sports",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 12,
+            "role": "checkbox",
+            "name": "Books",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 13,
+            "role": "textbox",
+            "name": "Profile Photo",
+            "type": "file"
+          },
+          {
+            "ref": 14,
+            "role": "textbox",
+            "name": "Password*",
+            "type": "password",
+            "placeholder": "Password"
+          },
+          {
+            "ref": 15,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 16,
+            "role": "textbox",
+            "name": "Password Confirm*",
+            "type": "password",
+            "placeholder": "Password Confirm"
+          },
+          {
+            "ref": 17,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 18,
+            "role": "button",
+            "name": "Register",
+            "type": "submit"
+          },
+          {
+            "ref": 19,
+            "role": "link",
+            "name": "QA Automation Labs"
+          },
+          {
+            "ref": 20,
+            "role": "link",
+            "name": "Back to top"
+          },
+          {
+            "ref": 21,
+            "role": "button",
+            "name": "Inspect locators",
+            "type": "submit"
+          },
+          {
+            "ref": 22,
+            "role": "button",
+            "name": "Toggle dark mode",
+            "type": "submit"
+          },
+          {
+            "ref": 23,
+            "role": "button",
+            "name": "Toggle challenge mode",
+            "type": "submit"
+          },
+          {
+            "ref": 24,
+            "role": "link",
+            "name": "QA Automation Labs"
+          },
+          {
+            "ref": 25,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 26,
+            "role": "link",
+            "name": "About"
+          },
+          {
+            "ref": 27,
+            "role": "link",
+            "name": "Courses"
+          },
+          {
+            "ref": 28,
+            "role": "link",
+            "name": "Events"
+          },
+          {
+            "ref": 29,
+            "role": "link",
+            "name": "Shop"
+          },
+          {
+            "ref": 30,
+            "role": "link",
+            "name": "API"
+          },
+          {
+            "ref": 31,
+            "role": "link",
+            "name": "Testing"
+          },
+          {
+            "ref": 32,
+            "role": "link",
+            "name": "Blog"
+          },
+          {
+            "ref": 33,
+            "role": "link",
+            "name": "Interview Preparation"
+          },
+          {
+            "ref": 34,
+            "role": "link",
+            "name": "Candidate Evaluation"
+          },
+          {
+            "ref": 35,
+            "role": "link",
+            "name": "Contacts"
+          },
+          {
+            "ref": 36,
+            "role": "textbox",
+            "name": "Search",
+            "type": "search",
+            "placeholder": "Search here..."
+          },
+          {
+            "ref": 37,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 38,
+            "role": "link",
+            "name": "login page"
+          },
+          {
+            "ref": 39,
+            "role": "textbox",
+            "name": "First Name*",
+            "type": "text",
+            "placeholder": "First Name"
+          },
+          {
+            "ref": 40,
+            "role": "textbox",
+            "name": "Last Name*",
+            "type": "text",
+            "placeholder": "Last Name"
+          }
+        ],
+        "alerts": [],
+        "headings": [
+          "Create your account"
+        ],
+        "text": "Home About Courses Events Shop API Testing Blog Interview Preparation Candidate Evaluation Contacts Home Register Create your account Practice real form validation — required fields, email & phone rules, live password strength Automate every input type: text, select, radio, checkbox, date & file upload Log in afterwards and run cart → checkout → order end-to-end Already registered? Sign in → If you already have an account with us, please login at the login page. YOUR PERSONAL DETAILS First Name* 0 characters Last Name* E-Mail* Telephone* Gender* Male Female Other Date of Birth* Country* Select Country India United States United Kingdom Canada Australia Germany Interests Fashion Electronics Sports Books Profile Photo Choose file YOUR PASSWORD Password* Password Confirm* Register © 2026 QA Automation Labs. All Rights Reserved."
+      }
+    },
+    {
+      "n": 21,
+      "action": {
+        "action": "assertVisible",
+        "text": "Register",
+        "reason": "Verify the registration form includes its Register button."
+      },
+      "status": "ok",
+      "urlBefore": "https://shop.qaautomationlabs.com/register.php",
+      "urlAfter": "https://shop.qaautomationlabs.com/register.php",
+      "screenshot": "screenshots/step-21.png",
+      "ms": 419,
+      "observation": {
+        "url": "https://shop.qaautomationlabs.com/register.php",
+        "title": "Register — E-commerce Demo for Form Automation Practice | QA Automation Labs",
+        "elements": [
+          {
+            "ref": 1,
+            "role": "link",
+            "name": "Sign in →"
+          },
+          {
+            "ref": 2,
+            "role": "textbox",
+            "name": "E-Mail*",
+            "type": "email",
+            "placeholder": "E-Mail"
+          },
+          {
+            "ref": 3,
+            "role": "spinbutton",
+            "name": "Telephone*",
+            "type": "number",
+            "placeholder": "Telephone"
+          },
+          {
+            "ref": 4,
+            "role": "radio",
+            "name": "Male",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 5,
+            "role": "radio",
+            "name": "Female",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 6,
+            "role": "radio",
+            "name": "Other",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 7,
+            "role": "textbox",
+            "name": "Date of Birth",
+            "type": "date"
+          },
+          {
+            "ref": 8,
+            "role": "combobox",
+            "name": "Country",
+            "type": "select-one",
+            "options": [
+              "Select Country",
+              "India",
+              "United States",
+              "United Kingdom",
+              "Canada",
+              "Australia",
+              "Germany"
+            ]
+          },
+          {
+            "ref": 9,
+            "role": "checkbox",
+            "name": "Fashion",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 10,
+            "role": "checkbox",
+            "name": "Electronics",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 11,
+            "role": "checkbox",
+            "name": "Sports",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 12,
+            "role": "checkbox",
+            "name": "Books",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 13,
+            "role": "textbox",
+            "name": "Profile Photo",
+            "type": "file"
+          },
+          {
+            "ref": 14,
+            "role": "textbox",
+            "name": "Password*",
+            "type": "password",
+            "placeholder": "Password"
+          },
+          {
+            "ref": 15,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 16,
+            "role": "textbox",
+            "name": "Password Confirm*",
+            "type": "password",
+            "placeholder": "Password Confirm"
+          },
+          {
+            "ref": 17,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 18,
+            "role": "button",
+            "name": "Register",
+            "type": "submit"
+          },
+          {
+            "ref": 19,
+            "role": "link",
+            "name": "QA Automation Labs"
+          },
+          {
+            "ref": 20,
+            "role": "link",
+            "name": "Back to top"
+          },
+          {
+            "ref": 21,
+            "role": "button",
+            "name": "Inspect locators",
+            "type": "submit"
+          },
+          {
+            "ref": 22,
+            "role": "button",
+            "name": "Toggle dark mode",
+            "type": "submit"
+          },
+          {
+            "ref": 23,
+            "role": "button",
+            "name": "Toggle challenge mode",
+            "type": "submit"
+          },
+          {
+            "ref": 24,
+            "role": "link",
+            "name": "QA Automation Labs"
+          },
+          {
+            "ref": 25,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 26,
+            "role": "link",
+            "name": "About"
+          },
+          {
+            "ref": 27,
+            "role": "link",
+            "name": "Courses"
+          },
+          {
+            "ref": 28,
+            "role": "link",
+            "name": "Events"
+          },
+          {
+            "ref": 29,
+            "role": "link",
+            "name": "Shop"
+          },
+          {
+            "ref": 30,
+            "role": "link",
+            "name": "API"
+          },
+          {
+            "ref": 31,
+            "role": "link",
+            "name": "Testing"
+          },
+          {
+            "ref": 32,
+            "role": "link",
+            "name": "Blog"
+          },
+          {
+            "ref": 33,
+            "role": "link",
+            "name": "Interview Preparation"
+          },
+          {
+            "ref": 34,
+            "role": "link",
+            "name": "Candidate Evaluation"
+          },
+          {
+            "ref": 35,
+            "role": "link",
+            "name": "Contacts"
+          },
+          {
+            "ref": 36,
+            "role": "textbox",
+            "name": "Search",
+            "type": "search",
+            "placeholder": "Search here..."
+          },
+          {
+            "ref": 37,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 38,
+            "role": "link",
+            "name": "login page"
+          },
+          {
+            "ref": 39,
+            "role": "textbox",
+            "name": "First Name*",
+            "type": "text",
+            "placeholder": "First Name"
+          },
+          {
+            "ref": 40,
+            "role": "textbox",
+            "name": "Last Name*",
+            "type": "text",
+            "placeholder": "Last Name"
+          }
+        ],
+        "alerts": [],
+        "headings": [
+          "Create your account"
+        ],
+        "text": "Home About Courses Events Shop API Testing Blog Interview Preparation Candidate Evaluation Contacts Home Register Create your account Practice real form validation — required fields, email & phone rules, live password strength Automate every input type: text, select, radio, checkbox, date & file upload Log in afterwards and run cart → checkout → order end-to-end Already registered? Sign in → If you already have an account with us, please login at the login page. YOUR PERSONAL DETAILS First Name* 0 characters Last Name* E-Mail* Telephone* Gender* Male Female Other Date of Birth* Country* Select Country India United States United Kingdom Canada Australia Germany Interests Fashion Electronics Sports Books Profile Photo Choose file YOUR PASSWORD Password* Password Confirm* Register © 2026 QA Automation Labs. All Rights Reserved."
+      }
+    },
+    {
+      "n": 22,
+      "action": {
+        "action": "assertVisible",
+        "text": "First Name*",
+        "reason": "Verify the registration form displays the first name field."
+      },
+      "status": "ok",
+      "urlBefore": "https://shop.qaautomationlabs.com/register.php",
+      "urlAfter": "https://shop.qaautomationlabs.com/register.php",
+      "screenshot": "screenshots/step-22.png",
+      "ms": 390,
+      "observation": {
+        "url": "https://shop.qaautomationlabs.com/register.php",
+        "title": "Register — E-commerce Demo for Form Automation Practice | QA Automation Labs",
+        "elements": [
+          {
+            "ref": 1,
+            "role": "link",
+            "name": "Sign in →"
+          },
+          {
+            "ref": 2,
+            "role": "textbox",
+            "name": "E-Mail*",
+            "type": "email",
+            "placeholder": "E-Mail"
+          },
+          {
+            "ref": 3,
+            "role": "spinbutton",
+            "name": "Telephone*",
+            "type": "number",
+            "placeholder": "Telephone"
+          },
+          {
+            "ref": 4,
+            "role": "radio",
+            "name": "Male",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 5,
+            "role": "radio",
+            "name": "Female",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 6,
+            "role": "radio",
+            "name": "Other",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 7,
+            "role": "textbox",
+            "name": "Date of Birth",
+            "type": "date"
+          },
+          {
+            "ref": 8,
+            "role": "combobox",
+            "name": "Country",
+            "type": "select-one",
+            "options": [
+              "Select Country",
+              "India",
+              "United States",
+              "United Kingdom",
+              "Canada",
+              "Australia",
+              "Germany"
+            ]
+          },
+          {
+            "ref": 9,
+            "role": "checkbox",
+            "name": "Fashion",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 10,
+            "role": "checkbox",
+            "name": "Electronics",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 11,
+            "role": "checkbox",
+            "name": "Sports",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 12,
+            "role": "checkbox",
+            "name": "Books",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 13,
+            "role": "textbox",
+            "name": "Profile Photo",
+            "type": "file"
+          },
+          {
+            "ref": 14,
+            "role": "textbox",
+            "name": "Password*",
+            "type": "password",
+            "placeholder": "Password"
+          },
+          {
+            "ref": 15,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 16,
+            "role": "textbox",
+            "name": "Password Confirm*",
+            "type": "password",
+            "placeholder": "Password Confirm"
+          },
+          {
+            "ref": 17,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 18,
+            "role": "button",
+            "name": "Register",
+            "type": "submit"
+          },
+          {
+            "ref": 19,
+            "role": "link",
+            "name": "QA Automation Labs"
+          },
+          {
+            "ref": 20,
+            "role": "link",
+            "name": "Back to top"
+          },
+          {
+            "ref": 21,
+            "role": "button",
+            "name": "Inspect locators",
+            "type": "submit"
+          },
+          {
+            "ref": 22,
+            "role": "button",
+            "name": "Toggle dark mode",
+            "type": "submit"
+          },
+          {
+            "ref": 23,
+            "role": "button",
+            "name": "Toggle challenge mode",
+            "type": "submit"
+          },
+          {
+            "ref": 24,
+            "role": "link",
+            "name": "QA Automation Labs"
+          },
+          {
+            "ref": 25,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 26,
+            "role": "link",
+            "name": "About"
+          },
+          {
+            "ref": 27,
+            "role": "link",
+            "name": "Courses"
+          },
+          {
+            "ref": 28,
+            "role": "link",
+            "name": "Events"
+          },
+          {
+            "ref": 29,
+            "role": "link",
+            "name": "Shop"
+          },
+          {
+            "ref": 30,
+            "role": "link",
+            "name": "API"
+          },
+          {
+            "ref": 31,
+            "role": "link",
+            "name": "Testing"
+          },
+          {
+            "ref": 32,
+            "role": "link",
+            "name": "Blog"
+          },
+          {
+            "ref": 33,
+            "role": "link",
+            "name": "Interview Preparation"
+          },
+          {
+            "ref": 34,
+            "role": "link",
+            "name": "Candidate Evaluation"
+          },
+          {
+            "ref": 35,
+            "role": "link",
+            "name": "Contacts"
+          },
+          {
+            "ref": 36,
+            "role": "textbox",
+            "name": "Search",
+            "type": "search",
+            "placeholder": "Search here..."
+          },
+          {
+            "ref": 37,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 38,
+            "role": "link",
+            "name": "login page"
+          },
+          {
+            "ref": 39,
+            "role": "textbox",
+            "name": "First Name*",
+            "type": "text",
+            "placeholder": "First Name"
+          },
+          {
+            "ref": 40,
+            "role": "textbox",
+            "name": "Last Name*",
+            "type": "text",
+            "placeholder": "Last Name"
+          }
+        ],
+        "alerts": [],
+        "headings": [
+          "Create your account"
+        ],
+        "text": "Home About Courses Events Shop API Testing Blog Interview Preparation Candidate Evaluation Contacts Home Register Create your account Practice real form validation — required fields, email & phone rules, live password strength Automate every input type: text, select, radio, checkbox, date & file upload Log in afterwards and run cart → checkout → order end-to-end Already registered? Sign in → If you already have an account with us, please login at the login page. YOUR PERSONAL DETAILS First Name* 0 characters Last Name* E-Mail* Telephone* Gender* Male Female Other Date of Birth* Country* Select Country India United States United Kingdom Canada Australia Germany Interests Fashion Electronics Sports Books Profile Photo Choose file YOUR PASSWORD Password* Password Confirm* Register © 2026 QA Automation Labs. All Rights Reserved."
+      }
+    },
+    {
+      "n": 23,
+      "action": {
+        "action": "assertVisible",
+        "text": "Last Name*",
+        "reason": "Verify the registration form displays its last name field."
+      },
+      "status": "ok",
+      "urlBefore": "https://shop.qaautomationlabs.com/register.php",
+      "urlAfter": "https://shop.qaautomationlabs.com/register.php",
+      "screenshot": "screenshots/step-23.png",
+      "ms": 380,
+      "observation": {
+        "url": "https://shop.qaautomationlabs.com/register.php",
+        "title": "Register — E-commerce Demo for Form Automation Practice | QA Automation Labs",
+        "elements": [
+          {
+            "ref": 1,
+            "role": "link",
+            "name": "Sign in →"
+          },
+          {
+            "ref": 2,
+            "role": "textbox",
+            "name": "E-Mail*",
+            "type": "email",
+            "placeholder": "E-Mail"
+          },
+          {
+            "ref": 3,
+            "role": "spinbutton",
+            "name": "Telephone*",
+            "type": "number",
+            "placeholder": "Telephone"
+          },
+          {
+            "ref": 4,
+            "role": "radio",
+            "name": "Male",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 5,
+            "role": "radio",
+            "name": "Female",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 6,
+            "role": "radio",
+            "name": "Other",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 7,
+            "role": "textbox",
+            "name": "Date of Birth",
+            "type": "date"
+          },
+          {
+            "ref": 8,
+            "role": "combobox",
+            "name": "Country",
+            "type": "select-one",
+            "options": [
+              "Select Country",
+              "India",
+              "United States",
+              "United Kingdom",
+              "Canada",
+              "Australia",
+              "Germany"
+            ]
+          },
+          {
+            "ref": 9,
+            "role": "checkbox",
+            "name": "Fashion",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 10,
+            "role": "checkbox",
+            "name": "Electronics",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 11,
+            "role": "checkbox",
+            "name": "Sports",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 12,
+            "role": "checkbox",
+            "name": "Books",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 13,
+            "role": "textbox",
+            "name": "Profile Photo",
+            "type": "file"
+          },
+          {
+            "ref": 14,
+            "role": "textbox",
+            "name": "Password*",
+            "type": "password",
+            "placeholder": "Password"
+          },
+          {
+            "ref": 15,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 16,
+            "role": "textbox",
+            "name": "Password Confirm*",
+            "type": "password",
+            "placeholder": "Password Confirm"
+          },
+          {
+            "ref": 17,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 18,
+            "role": "button",
+            "name": "Register",
+            "type": "submit"
+          },
+          {
+            "ref": 19,
+            "role": "link",
+            "name": "QA Automation Labs"
+          },
+          {
+            "ref": 20,
+            "role": "link",
+            "name": "Back to top"
+          },
+          {
+            "ref": 21,
+            "role": "button",
+            "name": "Inspect locators",
+            "type": "submit"
+          },
+          {
+            "ref": 22,
+            "role": "button",
+            "name": "Toggle dark mode",
+            "type": "submit"
+          },
+          {
+            "ref": 23,
+            "role": "button",
+            "name": "Toggle challenge mode",
+            "type": "submit"
+          },
+          {
+            "ref": 24,
+            "role": "link",
+            "name": "QA Automation Labs"
+          },
+          {
+            "ref": 25,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 26,
+            "role": "link",
+            "name": "About"
+          },
+          {
+            "ref": 27,
+            "role": "link",
+            "name": "Courses"
+          },
+          {
+            "ref": 28,
+            "role": "link",
+            "name": "Events"
+          },
+          {
+            "ref": 29,
+            "role": "link",
+            "name": "Shop"
+          },
+          {
+            "ref": 30,
+            "role": "link",
+            "name": "API"
+          },
+          {
+            "ref": 31,
+            "role": "link",
+            "name": "Testing"
+          },
+          {
+            "ref": 32,
+            "role": "link",
+            "name": "Blog"
+          },
+          {
+            "ref": 33,
+            "role": "link",
+            "name": "Interview Preparation"
+          },
+          {
+            "ref": 34,
+            "role": "link",
+            "name": "Candidate Evaluation"
+          },
+          {
+            "ref": 35,
+            "role": "link",
+            "name": "Contacts"
+          },
+          {
+            "ref": 36,
+            "role": "textbox",
+            "name": "Search",
+            "type": "search",
+            "placeholder": "Search here..."
+          },
+          {
+            "ref": 37,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 38,
+            "role": "link",
+            "name": "login page"
+          },
+          {
+            "ref": 39,
+            "role": "textbox",
+            "name": "First Name*",
+            "type": "text",
+            "placeholder": "First Name"
+          },
+          {
+            "ref": 40,
+            "role": "textbox",
+            "name": "Last Name*",
+            "type": "text",
+            "placeholder": "Last Name"
+          }
+        ],
+        "alerts": [],
+        "headings": [
+          "Create your account"
+        ],
+        "text": "Home About Courses Events Shop API Testing Blog Interview Preparation Candidate Evaluation Contacts Home Register Create your account Practice real form validation — required fields, email & phone rules, live password strength Automate every input type: text, select, radio, checkbox, date & file upload Log in afterwards and run cart → checkout → order end-to-end Already registered? Sign in → If you already have an account with us, please login at the login page. YOUR PERSONAL DETAILS First Name* 0 characters Last Name* E-Mail* Telephone* Gender* Male Female Other Date of Birth* Country* Select Country India United States United Kingdom Canada Australia Germany Interests Fashion Electronics Sports Books Profile Photo Choose file YOUR PASSWORD Password* Password Confirm* Register © 2026 QA Automation Labs. All Rights Reserved."
+      }
+    },
+    {
+      "n": 24,
+      "action": {
+        "action": "assertVisible",
+        "text": "Gender",
+        "reason": "Confirm the registration form displays the gender selection field."
+      },
+      "status": "ok",
+      "urlBefore": "https://shop.qaautomationlabs.com/register.php",
+      "urlAfter": "https://shop.qaautomationlabs.com/register.php",
+      "screenshot": "screenshots/step-24.png",
+      "ms": 380,
+      "observation": {
+        "url": "https://shop.qaautomationlabs.com/register.php",
+        "title": "Register — E-commerce Demo for Form Automation Practice | QA Automation Labs",
+        "elements": [
+          {
+            "ref": 1,
+            "role": "link",
+            "name": "Sign in →"
+          },
+          {
+            "ref": 2,
+            "role": "textbox",
+            "name": "E-Mail*",
+            "type": "email",
+            "placeholder": "E-Mail"
+          },
+          {
+            "ref": 3,
+            "role": "spinbutton",
+            "name": "Telephone*",
+            "type": "number",
+            "placeholder": "Telephone"
+          },
+          {
+            "ref": 4,
+            "role": "radio",
+            "name": "Male",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 5,
+            "role": "radio",
+            "name": "Female",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 6,
+            "role": "radio",
+            "name": "Other",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 7,
+            "role": "textbox",
+            "name": "Date of Birth",
+            "type": "date"
+          },
+          {
+            "ref": 8,
+            "role": "combobox",
+            "name": "Country",
+            "type": "select-one",
+            "options": [
+              "Select Country",
+              "India",
+              "United States",
+              "United Kingdom",
+              "Canada",
+              "Australia",
+              "Germany"
+            ]
+          },
+          {
+            "ref": 9,
+            "role": "checkbox",
+            "name": "Fashion",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 10,
+            "role": "checkbox",
+            "name": "Electronics",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 11,
+            "role": "checkbox",
+            "name": "Sports",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 12,
+            "role": "checkbox",
+            "name": "Books",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 13,
+            "role": "textbox",
+            "name": "Profile Photo",
+            "type": "file"
+          },
+          {
+            "ref": 14,
+            "role": "textbox",
+            "name": "Password*",
+            "type": "password",
+            "placeholder": "Password"
+          },
+          {
+            "ref": 15,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 16,
+            "role": "textbox",
+            "name": "Password Confirm*",
+            "type": "password",
+            "placeholder": "Password Confirm"
+          },
+          {
+            "ref": 17,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 18,
+            "role": "button",
+            "name": "Register",
+            "type": "submit"
+          },
+          {
+            "ref": 19,
+            "role": "link",
+            "name": "QA Automation Labs"
+          },
+          {
+            "ref": 20,
+            "role": "link",
+            "name": "Back to top"
+          },
+          {
+            "ref": 21,
+            "role": "button",
+            "name": "Inspect locators",
+            "type": "submit"
+          },
+          {
+            "ref": 22,
+            "role": "button",
+            "name": "Toggle dark mode",
+            "type": "submit"
+          },
+          {
+            "ref": 23,
+            "role": "button",
+            "name": "Toggle challenge mode",
+            "type": "submit"
+          },
+          {
+            "ref": 24,
+            "role": "link",
+            "name": "QA Automation Labs"
+          },
+          {
+            "ref": 25,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 26,
+            "role": "link",
+            "name": "About"
+          },
+          {
+            "ref": 27,
+            "role": "link",
+            "name": "Courses"
+          },
+          {
+            "ref": 28,
+            "role": "link",
+            "name": "Events"
+          },
+          {
+            "ref": 29,
+            "role": "link",
+            "name": "Shop"
+          },
+          {
+            "ref": 30,
+            "role": "link",
+            "name": "API"
+          },
+          {
+            "ref": 31,
+            "role": "link",
+            "name": "Testing"
+          },
+          {
+            "ref": 32,
+            "role": "link",
+            "name": "Blog"
+          },
+          {
+            "ref": 33,
+            "role": "link",
+            "name": "Interview Preparation"
+          },
+          {
+            "ref": 34,
+            "role": "link",
+            "name": "Candidate Evaluation"
+          },
+          {
+            "ref": 35,
+            "role": "link",
+            "name": "Contacts"
+          },
+          {
+            "ref": 36,
+            "role": "textbox",
+            "name": "Search",
+            "type": "search",
+            "placeholder": "Search here..."
+          },
+          {
+            "ref": 37,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 38,
+            "role": "link",
+            "name": "login page"
+          },
+          {
+            "ref": 39,
+            "role": "textbox",
+            "name": "First Name*",
+            "type": "text",
+            "placeholder": "First Name"
+          },
+          {
+            "ref": 40,
+            "role": "textbox",
+            "name": "Last Name*",
+            "type": "text",
+            "placeholder": "Last Name"
+          }
+        ],
+        "alerts": [],
+        "headings": [
+          "Create your account"
+        ],
+        "text": "Home About Courses Events Shop API Testing Blog Interview Preparation Candidate Evaluation Contacts Home Register Create your account Practice real form validation — required fields, email & phone rules, live password strength Automate every input type: text, select, radio, checkbox, date & file upload Log in afterwards and run cart → checkout → order end-to-end Already registered? Sign in → If you already have an account with us, please login at the login page. YOUR PERSONAL DETAILS First Name* 0 characters Last Name* E-Mail* Telephone* Gender* Male Female Other Date of Birth* Country* Select Country India United States United Kingdom Canada Australia Germany Interests Fashion Electronics Sports Books Profile Photo Choose file YOUR PASSWORD Password* Password Confirm* Register © 2026 QA Automation Labs. All Rights Reserved."
+      }
+    },
+    {
+      "n": 25,
+      "action": {
+        "action": "assertVisible",
+        "text": "E-Mail* Telephone* Gender* Male Female Other Date of Birth* Country*",
+        "reason": "Verify the remaining email, telephone, date of birth, and country controls are displayed on the registration form."
+      },
+      "status": "ok",
+      "urlBefore": "https://shop.qaautomationlabs.com/register.php",
+      "urlAfter": "https://shop.qaautomationlabs.com/register.php",
+      "screenshot": "screenshots/step-25.png",
+      "ms": 385,
+      "observation": {
+        "url": "https://shop.qaautomationlabs.com/register.php",
+        "title": "Register — E-commerce Demo for Form Automation Practice | QA Automation Labs",
+        "elements": [
+          {
+            "ref": 1,
+            "role": "link",
+            "name": "Sign in →"
+          },
+          {
+            "ref": 2,
+            "role": "textbox",
+            "name": "E-Mail*",
+            "type": "email",
+            "placeholder": "E-Mail"
+          },
+          {
+            "ref": 3,
+            "role": "spinbutton",
+            "name": "Telephone*",
+            "type": "number",
+            "placeholder": "Telephone"
+          },
+          {
+            "ref": 4,
+            "role": "radio",
+            "name": "Male",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 5,
+            "role": "radio",
+            "name": "Female",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 6,
+            "role": "radio",
+            "name": "Other",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "ref": 7,
+            "role": "textbox",
+            "name": "Date of Birth",
+            "type": "date"
+          },
+          {
+            "ref": 8,
+            "role": "combobox",
+            "name": "Country",
+            "type": "select-one",
+            "options": [
+              "Select Country",
+              "India",
+              "United States",
+              "United Kingdom",
+              "Canada",
+              "Australia",
+              "Germany"
+            ]
+          },
+          {
+            "ref": 9,
+            "role": "checkbox",
+            "name": "Fashion",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 10,
+            "role": "checkbox",
+            "name": "Electronics",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 11,
+            "role": "checkbox",
+            "name": "Sports",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 12,
+            "role": "checkbox",
+            "name": "Books",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "ref": 13,
+            "role": "textbox",
+            "name": "Profile Photo",
+            "type": "file"
+          },
+          {
+            "ref": 14,
+            "role": "textbox",
+            "name": "Password*",
+            "type": "password",
+            "placeholder": "Password"
+          },
+          {
+            "ref": 15,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 16,
+            "role": "textbox",
+            "name": "Password Confirm*",
+            "type": "password",
+            "placeholder": "Password Confirm"
+          },
+          {
+            "ref": 17,
+            "role": "button",
+            "name": "Show password",
+            "type": "button"
+          },
+          {
+            "ref": 18,
+            "role": "button",
+            "name": "Register",
+            "type": "submit"
+          },
+          {
+            "ref": 19,
+            "role": "link",
+            "name": "QA Automation Labs"
+          },
+          {
+            "ref": 20,
+            "role": "link",
+            "name": "Back to top"
+          },
+          {
+            "ref": 21,
+            "role": "button",
+            "name": "Inspect locators",
+            "type": "submit"
+          },
+          {
+            "ref": 22,
+            "role": "button",
+            "name": "Toggle dark mode",
+            "type": "submit"
+          },
+          {
+            "ref": 23,
+            "role": "button",
+            "name": "Toggle challenge mode",
+            "type": "submit"
+          },
+          {
+            "ref": 24,
+            "role": "link",
+            "name": "QA Automation Labs"
+          },
+          {
+            "ref": 25,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 26,
+            "role": "link",
+            "name": "About"
+          },
+          {
+            "ref": 27,
+            "role": "link",
+            "name": "Courses"
+          },
+          {
+            "ref": 28,
+            "role": "link",
+            "name": "Events"
+          },
+          {
+            "ref": 29,
+            "role": "link",
+            "name": "Shop"
+          },
+          {
+            "ref": 30,
+            "role": "link",
+            "name": "API"
+          },
+          {
+            "ref": 31,
+            "role": "link",
+            "name": "Testing"
+          },
+          {
+            "ref": 32,
+            "role": "link",
+            "name": "Blog"
+          },
+          {
+            "ref": 33,
+            "role": "link",
+            "name": "Interview Preparation"
+          },
+          {
+            "ref": 34,
+            "role": "link",
+            "name": "Candidate Evaluation"
+          },
+          {
+            "ref": 35,
+            "role": "link",
+            "name": "Contacts"
+          },
+          {
+            "ref": 36,
+            "role": "textbox",
+            "name": "Search",
+            "type": "search",
+            "placeholder": "Search here..."
+          },
+          {
+            "ref": 37,
+            "role": "link",
+            "name": "Home"
+          },
+          {
+            "ref": 38,
+            "role": "link",
+            "name": "login page"
+          },
+          {
+            "ref": 39,
+            "role": "textbox",
+            "name": "First Name*",
+            "type": "text",
+            "placeholder": "First Name"
+          },
+          {
+            "ref": 40,
+            "role": "textbox",
+            "name": "Last Name*",
+            "type": "text",
+            "placeholder": "Last Name"
+          }
+        ],
+        "alerts": [],
+        "headings": [
+          "Create your account"
+        ],
+        "text": "Home About Courses Events Shop API Testing Blog Interview Preparation Candidate Evaluation Contacts Home Register Create your account Practice real form validation — required fields, email & phone rules, live password strength Automate every input type: text, select, radio, checkbox, date & file upload Log in afterwards and run cart → checkout → order end-to-end Already registered? Sign in → If you already have an account with us, please login at the login page. YOUR PERSONAL DETAILS First Name* 0 characters Last Name* E-Mail* Telephone* Gender* Male Female Other Date of Birth* Country* Select Country India United States United Kingdom Canada Australia Germany Interests Fashion Electronics Sports Books Profile Photo Choose file YOUR PASSWORD Password* Password Confirm* Register © 2026 QA Automation Labs. All Rights Reserved."
+      }
+    }
+  ],
+  "goal": "Verify that the registration form is displayed with first name, last name, email, telephone, gender, date of birth, country, password, confirm password, and a Register button.",
+  "startUrl": "https://shop.qaautomationlabs.com/register.php",
+  "startedAt": "2026-11-09T19:26:32.097Z",
+  "durationMs": 91311,
+  "config": {
+    "model": "openrouter/auto",
+    "baseURL": "https://openrouter.ai/api/v1",
+    "headed": true,
+    "maxSteps": 25,
+    "allowedOrigins": []
+  }
+}

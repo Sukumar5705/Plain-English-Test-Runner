@@ -1,0 +1,22 @@
+{
+  "verdict": "ERROR",
+  "reason": "Site unreachable: page.goto: net::ERR_NAME_NOT_RESOLVED at https://this-domain-should-not-exist.invalid/\nCall log:\n\u001b[2m  - navigating to \"https://this-domain-should-not-exist.invalid/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+  "weakEvidence": false,
+  "assertions": {
+    "passed": 0,
+    "failed": 0
+  },
+  "assertionDetails": [],
+  "steps": [],
+  "goal": "Open the website and verify that its homepage is displayed.",
+  "startUrl": "https://this-domain-should-not-exist.invalid/",
+  "startedAt": "2026-11-09T19:29:23.182Z",
+  "durationMs": 1289,
+  "config": {
+    "model": "openrouter/auto",
+    "baseURL": "https://openrouter.ai/api/v1",
+    "headed": true,
+    "maxSteps": 25,
+    "allowedOrigins": []
+  }
+}
